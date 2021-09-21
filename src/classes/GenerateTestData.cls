@@ -8,6 +8,7 @@ public with sharing class GenerateTestData {
 
         List<Account> accounts = new List<Account>();
 
+
         List<String> accountNames = new List<String>{'Eric Spicely','Zdenek Polivka','Matej Penaz','Andrej Kalasnik','Petr Knize','David Hosek'};
 
 
