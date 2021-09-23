@@ -160,7 +160,7 @@
         <label>Account</label>
         <referenceTo>Account</referenceTo>
         <relationshipLabel>Next Best Offers</relationshipLabel>
-        <relationshipName>Next_Best_Offers</relationshipName>
+        <relationshipName>Next_Best_Offers1</relationshipName>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
