@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Log Entry Tag</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Log Entry Tags</value>
+    </caseValues>
+    <fields>
+        <label><!-- Log Entry Origin --></label>
+        <name>LogEntryOrigin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Log Entry Timestamp --></label>
+        <name>LogEntryTimestamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Log Entry --></label>
+        <name>LogEntry__c</name>
+        <relationshipLabel><!-- Log Entry Tags --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Log --></label>
+        <name>LogLink__c</name>
+    </fields>
+    <fields>
+        <label><!-- Username --></label>
+        <name>LoggedByUsernameLink__c</name>
+    </fields>
+    <fields>
+        <label><!-- Logger Tag --></label>
+        <name>Tag__c</name>
+        <relationshipLabel><!-- Tagged Log Entries --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- An external ID field used to ensure that Log Entry Tag records are unique --></help>
+        <label><!-- Unique ID --></label>
+        <name>UniqueId__c</name>
+    </fields>
+    <layouts>
+        <layout>Log Entry Tag Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Log Entry Details --></label>
+            <section>Log Entry Details</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>Controls the functionality of Logger</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>AnonymousMode__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>When enabled, any logs generated will not have any user-specific details set - any fields related to the User, Profile, etc. will be null.</inlineHelpText>
+        <label>Anonymous Mode</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ApplyDataMaskRules__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>When enabled, any data-mask rules (configured in LogEntryDataMaskRule__mdt) will be automatically applied to log entry messages.</inlineHelpText>
+        <label>Apply Data Mask Rules</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DefaultLogShareAccessLevel__c</fullName>
+        <defaultValue>&apos;Read&apos;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Uses Apex managed sharing to grants users read or edit access to their log records (on insert only). When no access level is specified, no Apex sharing logic is executed. This only gives record-level access - users will still need to be granted access to the Log__c object using permission sets or profiles.
+
+Possible Values:
+(blank)
+Read
+Edit</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Uses Apex managed sharing to grants users read or edit access to their log records (on insert only). When no access level is specified, no Apex sharing logic is executed. This only gives record-level access - users will still need to be granted access to the Log__c object using permission sets or profiles.
+
+Possible Values:
+(blank)
+Read
+Edit</inlineHelpText>
+        <label>Default Log Records Access Level</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DefaultNumberOfDaysToRetainLogs__c</fullName>
+        <defaultValue>14</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This value is used to set the field Log__c.LogRetentionDate__c,  which is then used by LogBatchPurger to delete old logs. To keep  logs indefinitely, set this field to blank (null).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This value is used to set the field Log__c.LogRetentionDate__c,  which is then used by LogBatchPurger to delete old logs. To keep  logs indefinitely, set this field to blank (null).</inlineHelpText>
+        <label>Default Number of Days to Retain Logs</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DefaultSaveMethod__c</fullName>
+        <defaultValue>&apos;EVENT_BUS&apos;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Defaults to &apos;EVENT_BUS&apos;. This controls the default save method used by Logger when calling saveLog().
+
+Possible values:
+EVENT_BUS
+QUEUEABLE
+REST</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Defaults to &apos;EVENT_BUS&apos;. This controls the default save method used by Logger when calling saveLog().
+
+Possible values:
+EVENT_BUS
+QUEUEABLE
+REST</inlineHelpText>
+        <label>Save Method</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EnableSystemMessages__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When enabled, log entries may be generated that contain additional details about the logging system.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When enabled, log entries may be generated that contain additional details about the logging system.</inlineHelpText>
+        <label>Enable System Messages</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsEnabled__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Is Enabled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>LoggingLevel__c</fullName>
+        <defaultValue>&apos;DEBUG&apos;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Possible values:
+ERROR
+WARN
+INFO
+DEBUG
+FINE
+FINER
+FINEST</inlineHelpText>
+        <label>Logging Level</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>StripInaccessibleRecordFields__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>When enabled, any time an SObject record is logged, only fields that the current user can access will be included in the record&apos;s JSON.</inlineHelpText>
+        <label>Strip Inaccessible Record Fields</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SystemLogMessageFormat__c</fullName>
+        <defaultValue>&apos;{OriginLocation__c}\n{Message__c}&apos;</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Use to format the Apex Log System Debug messages with fields from LogEntryEvent__e</inlineHelpText>
+        <label>System Log Message Format</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Logger Settings</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>SETUP_OWNER_NAME</columns>
+        <columns>SETUP_TYPE</columns>
+        <columns>IsEnabled__c</columns>
+        <columns>LoggingLevel__c</columns>
+        <columns>ApplyDataMaskRules__c</columns>
+        <columns>StripInaccessibleRecordFields__c</columns>
+        <columns>AnonymousMode__c</columns>
+        <columns>SystemLogMessageFormat__c</columns>
+        <columns>DefaultLogShareAccessLevel__c</columns>
+        <columns>DefaultNumberOfDaysToRetainLogs__c</columns>
+        <columns>EnableSystemMessages__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <visibility>Public</visibility>
+</CustomObject>

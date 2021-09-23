@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Log Entry</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Log Entries</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Related List Defaults --></label>
+        <name>Related_List_Defaults</name>
+    </fieldSets>
+    <fields>
+        <help><!-- The API version for this class. Every class has an API version specified at creation. --></help>
+        <label><!-- Apex Class API Version --></label>
+        <name>ApexClassApiVersion__c</name>
+        <picklistValues>
+            <masterLabel>v52.0 - Summer &apos;21 Release</masterLabel>
+            <translation><!-- v52.0 - Summer &apos;21 Release --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>v53.0 - Winter &apos;22 Release</masterLabel>
+            <translation><!-- v53.0 - Winter &apos;22 Release --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Apex Class Created Date --></label>
+        <name>ApexClassCreatedDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- The ID of the Apex class in the current org. --></help>
+        <label><!-- Apex Class ID --></label>
+        <name>ApexClassId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Apex Class Last Modified Date --></label>
+        <name>ApexClassLastModifiedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Apex Class --></label>
+        <name>ApexClassName__c</name>
+    </fields>
+    <fields>
+        <help><!-- When the log entry is created via an Apex inner class, this field is populated with the fully-qualified class name (e.g., MyClass.MyInnerClass) --></help>
+        <label><!-- Apex Inner Class --></label>
+        <name>ApexInnerClassName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Apex Method --></label>
+        <name>ApexMethodName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Component Name --></label>
+        <name>ComponentApiName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Component Function --></label>
+        <name>ComponentFunctionName__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates if the component is a lightning web component (lwc) or an aura component --></help>
+        <label><!-- Component Type --></label>
+        <name>ComponentType__c</name>
+        <picklistValues>
+            <masterLabel>Aura</masterLabel>
+            <translation><!-- Aura --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LWC</masterLabel>
+            <translation><!-- LWC --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Database Result Collection Type --></label>
+        <name>DatabaseResultCollectionType__c</name>
+        <picklistValues>
+            <masterLabel>List</masterLabel>
+            <translation><!-- List --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single Record</masterLabel>
+            <translation><!-- Single Record --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Database Result JSON --></label>
+        <name>DatabaseResultJson__c</name>
+    </fields>
+    <fields>
+        <label><!-- Database Result Type --></label>
+        <name>DatabaseResultType__c</name>
+        <picklistValues>
+            <masterLabel>Database.DeleteResult</masterLabel>
+            <translation><!-- Database.DeleteResult --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Database.MergeResult</masterLabel>
+            <translation><!-- Database.MergeResult --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Database.SaveResult</masterLabel>
+            <translation><!-- Database.SaveResult --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Database.UndeleteResult</masterLabel>
+            <translation><!-- Database.UndeleteResult --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Database.UpsertResult</masterLabel>
+            <translation><!-- Database.UpsertResult --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Database.UpsertResult.Insert</masterLabel>
+            <translation><!-- Database.UpsertResult.Insert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Database.UpsertResult.Update</masterLabel>
+            <translation><!-- Database.UpsertResult.Update --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Timestamp in milliseconds elapsed since 1 January 1970 of the log event --></help>
+        <label><!-- Epoch Timestamp --></label>
+        <name>EpochTimestamp__c</name>
+    </fields>
+    <fields>
+        <help><!-- The UUID of the LogEntryEvent__e platform event that created this LogEntry__c record.
+
+For more details, refer to https://developer.salesforce.com/docs/atlas.en-us.platform_events.meta/platform_events/platform_events_event_uuid.htm --></help>
+        <label><!-- Event UUID --></label>
+        <name>EventUuid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exception Message --></label>
+        <name>ExceptionMessage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exception Stack Trace --></label>
+        <name>ExceptionStackTrace__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exception Type --></label>
+        <name>ExceptionType__c</name>
+        <picklistValues>
+            <masterLabel>Flow.FaultError</masterLabel>
+            <translation><!-- Flow.FaultError --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JavaScript.Error</masterLabel>
+            <translation><!-- JavaScript.Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System.AsyncException</masterLabel>
+            <translation><!-- System.AsyncException --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System.CalloutException</masterLabel>
+            <translation><!-- System.CalloutException --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System.DmlException</masterLabel>
+            <translation><!-- System.DmlException --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System.EmailException</masterLabel>
+            <translation><!-- System.EmailException --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System.ExternalObjectException</masterLabel>
+            <translation><!-- System.ExternalObjectException --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System.InvalidParameterValueException</masterLabel>
+            <translation><!-- System.InvalidParameterValueException --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System.JSONException</masterLabel>
+            <translation><!-- System.JSONException --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System.LimitException</masterLabel>
+            <translation><!-- System.LimitException --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System.ListException</masterLabel>
+            <translation><!-- System.ListException --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System.MathException</masterLabel>
+            <translation><!-- System.MathException --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System.NoAccessException</masterLabel>
+            <translation><!-- System.NoAccessException --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System.NoDataFoundException</masterLabel>
+            <translation><!-- System.NoDataFoundException --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System.NoSuchElementException</masterLabel>
+            <translation><!-- System.NoSuchElementException --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System.NullPointerException</masterLabel>
+            <translation><!-- System.NullPointerException --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System.QueryException</masterLabel>
+            <translation><!-- System.QueryException --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System.SObjectException</masterLabel>
+            <translation><!-- System.SObjectException --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System.SearchException</masterLabel>
+            <translation><!-- System.SearchException --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System.SecurityException</masterLabel>
+            <translation><!-- System.SecurityException --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System.SerializationException</masterLabel>
+            <translation><!-- System.SerializationException --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System.StringException</masterLabel>
+            <translation><!-- System.StringException --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System.TypeException</masterLabel>
+            <translation><!-- System.TypeException --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System.VisualforceException</masterLabel>
+            <translation><!-- System.VisualforceException --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System.XmlException</masterLabel>
+            <translation><!-- System.XmlException --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The ID of the active flow version. --></help>
+        <label><!-- Flow Active Version ID --></label>
+        <name>FlowActiveVersionId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Flow definition information, specified by the org’s admin. --></help>
+        <label><!-- Flow Description --></label>
+        <name>FlowDescription__c</name>
+    </fields>
+    <fields>
+        <help><!-- The ID of the flow definition. --></help>
+        <label><!-- Flow Durable ID --></label>
+        <name>FlowDurableId__c</name>
+    </fields>
+    <fields>
+        <help><!-- The label of the flow definition. --></help>
+        <label><!-- Flow Label --></label>
+        <name>FlowLabel__c</name>
+    </fields>
+    <fields>
+        <help><!-- The name of the user who last updated this flow definition. --></help>
+        <label><!-- Flow Last Modified By --></label>
+        <name>FlowLastModifiedByName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flow Last Modified Date --></label>
+        <name>FlowLastModifiedDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- The type of the flow. --></help>
+        <label><!-- Flow Process Type --></label>
+        <name>FlowProcessType__c</name>
+        <picklistValues>
+            <masterLabel>Appointments</masterLabel>
+            <translation><!-- Appointments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AutoLaunchedFlow</masterLabel>
+            <translation><!-- AutoLaunchedFlow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CheckoutFlow</masterLabel>
+            <translation><!-- CheckoutFlow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ContactRequestFlow</masterLabel>
+            <translation><!-- ContactRequestFlow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CustomEvent</masterLabel>
+            <translation><!-- CustomEvent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CustomerLifecycle</masterLabel>
+            <translation><!-- CustomerLifecycle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FSCLending</masterLabel>
+            <translation><!-- FSCLending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FieldServiceMobile</masterLabel>
+            <translation><!-- FieldServiceMobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FieldServiceWeb</masterLabel>
+            <translation><!-- FieldServiceWeb --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flow</masterLabel>
+            <translation><!-- Flow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>InvocableProcess</masterLabel>
+            <translation><!-- InvocableProcess --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RoutingFlow</masterLabel>
+            <translation><!-- RoutingFlow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Survey</masterLabel>
+            <translation><!-- Survey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SurveyEnrich</masterLabel>
+            <translation><!-- SurveyEnrich --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workflow</masterLabel>
+            <translation><!-- Workflow --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Specifies what causes the flow to run. --></help>
+        <label><!-- Flow Trigger Type --></label>
+        <name>FlowTriggerType__c</name>
+        <picklistValues>
+            <masterLabel>PlatformEvent</masterLabel>
+            <translation><!-- PlatformEvent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RecordAfterSave</masterLabel>
+            <translation><!-- RecordAfterSave --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RecordBeforeSave</masterLabel>
+            <translation><!-- RecordBeforeSave --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheduled</masterLabel>
+            <translation><!-- Scheduled --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The API version for running the flow. This value determines which versioned run-time behavior improvements are adopted by the flow version. --></help>
+        <label><!-- Flow API Version Runtime --></label>
+        <name>FlowVersionApiVersionRuntime__c</name>
+        <picklistValues>
+            <masterLabel>v52.0 - Summer &apos;21 Release</masterLabel>
+            <translation><!-- v52.0 - Summer &apos;21 Release --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>v53.0 - Winter &apos;22 Release</masterLabel>
+            <translation><!-- v53.0 - Winter &apos;22 Release --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The flow’s version number. --></help>
+        <label><!-- Flow Version Number --></label>
+        <name>FlowVersionNumber__c</name>
+    </fields>
+    <fields>
+        <help><!-- The mode that the flow runs in. --></help>
+        <label><!-- Flow Run-In Mode --></label>
+        <name>FlowVersionRunInMode__c</name>
+        <picklistValues>
+            <masterLabel>DefaultMode</masterLabel>
+            <translation><!-- DefaultMode --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SystemModeWithSharing</masterLabel>
+            <translation><!-- SystemModeWithSharing --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Has Database Result --></label>
+        <name>HasDatabaseResult__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has Exception Stack Trace --></label>
+        <name>HasExceptionStackTrace__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has Exception --></label>
+        <name>HasException__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has Related Record --></label>
+        <name>HasRecordId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has Related Record JSON --></label>
+        <name>HasRecordJson__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has Stack Trace --></label>
+        <name>HasStackTrace__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aggregate Queries Max --></label>
+        <name>LimitsAggregateQueriesMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aggregate Queries Used --></label>
+        <name>LimitsAggregateQueriesUsed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aggregate Queries --></label>
+        <name>LimitsAggregateQueries__c</name>
+    </fields>
+    <fields>
+        <label><!-- Async Calls Max --></label>
+        <name>LimitsAsyncCallsMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Async Calls Used --></label>
+        <name>LimitsAsyncCallsUsed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Async Calls --></label>
+        <name>LimitsAsyncCalls__c</name>
+    </fields>
+    <fields>
+        <label><!-- Callouts Max --></label>
+        <name>LimitsCalloutsMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Callouts Used --></label>
+        <name>LimitsCalloutsUsed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Callouts --></label>
+        <name>LimitsCallouts__c</name>
+    </fields>
+    <fields>
+        <label><!-- CPU Time Max --></label>
+        <name>LimitsCpuTimeMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- CPU Time Used --></label>
+        <name>LimitsCpuTimeUsed__c</name>
+    </fields>
+    <fields>
+        <label><!-- CPU Time --></label>
+        <name>LimitsCpuTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- DML Rows Max --></label>
+        <name>LimitsDmlRowsMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- DML Rows Used --></label>
+        <name>LimitsDmlRowsUsed__c</name>
+    </fields>
+    <fields>
+        <label><!-- DML Rows --></label>
+        <name>LimitsDmlRows__c</name>
+    </fields>
+    <fields>
+        <label><!-- DML Statements Max --></label>
+        <name>LimitsDmlStatementsMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- DML Statements Used --></label>
+        <name>LimitsDmlStatementsUsed__c</name>
+    </fields>
+    <fields>
+        <label><!-- DML Statements --></label>
+        <name>LimitsDmlStatements__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Invocations Max --></label>
+        <name>LimitsEmailInvocationsMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Invocations Used --></label>
+        <name>LimitsEmailInvocationsUsed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Invocations --></label>
+        <name>LimitsEmailInvocations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Future Calls Max --></label>
+        <name>LimitsFutureCallsMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Future Calls Used --></label>
+        <name>LimitsFutureCallsUsed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Future Calls --></label>
+        <name>LimitsFutureCalls__c</name>
+    </fields>
+    <fields>
+        <label><!-- Heap Size Max --></label>
+        <name>LimitsHeapSizeMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Heap Size Used --></label>
+        <name>LimitsHeapSizeUsed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Heap Size --></label>
+        <name>LimitsHeapSize__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobile Push Apex Calls Max --></label>
+        <name>LimitsMobilePushApexCallsMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobile Push Apex Calls Used --></label>
+        <name>LimitsMobilePushApexCallsUsed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobile Push Apex Calls --></label>
+        <name>LimitsMobilePushApexCalls__c</name>
+    </fields>
+    <fields>
+        <label><!-- Publish Immediate Statements DML Max --></label>
+        <name>LimitsPublishImmediateDmlStatementsMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Publish Immediate Statements DML Used --></label>
+        <name>LimitsPublishImmediateDmlStatementsUsed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Publish Immediate DML Statements --></label>
+        <name>LimitsPublishImmediateDmlStatements__c</name>
+    </fields>
+    <fields>
+        <label><!-- Queueable Jobs Max --></label>
+        <name>LimitsQueueableJobsMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Queueable Jobs Used --></label>
+        <name>LimitsQueueableJobsUsed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Queueable Jobs --></label>
+        <name>LimitsQueueableJobs__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOQL Queries Max --></label>
+        <name>LimitsSoqlQueriesMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOQL Queries Used --></label>
+        <name>LimitsSoqlQueriesUsed__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOQL Queries --></label>
+        <name>LimitsSoqlQueries__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOQL Query Locator Rows Max --></label>
+        <name>LimitsSoqlQueryLocatorRowsMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOQL Query Locator Rows Used --></label>
+        <name>LimitsSoqlQueryLocatorRowsUsed__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOQL Query Locator Rows --></label>
+        <name>LimitsSoqlQueryLocatorRows__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOQL Query Rows Max --></label>
+        <name>LimitsSoqlQueryRowsMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOQL Query Rows Used --></label>
+        <name>LimitsSoqlQueryRowsUsed__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOQL Query Rows --></label>
+        <name>LimitsSoqlQueryRows__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOSL Searches Max --></label>
+        <name>LimitsSoslSearchesMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOSL Searches Used --></label>
+        <name>LimitsSoslSearchesUsed__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOSL Searches --></label>
+        <name>LimitsSoslSearches__c</name>
+    </fields>
+    <fields>
+        <label><!-- Log Transaction ID --></label>
+        <name>LogTransactionId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Log --></label>
+        <name>Log__c</name>
+        <relationshipLabel><!-- Log Entries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Username --></label>
+        <name>LoggedByUsernameLink__c</name>
+    </fields>
+    <fields>
+        <label><!-- Logging Level Ordinal --></label>
+        <name>LoggingLevelOrdinal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level --></label>
+        <name>LoggingLevelWithImage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Logging Level --></label>
+        <name>LoggingLevel__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates if sensitive data was removed from the message, using log entry data mask rules --></help>
+        <label><!-- Message Masked --></label>
+        <name>MessageMasked__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates if the message was truncated due to being too long to fit into the Message field --></help>
+        <label><!-- Message Truncated --></label>
+        <name>MessageTruncated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Message --></label>
+        <name>Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Origin Location --></label>
+        <name>OriginLocation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Origin Type --></label>
+        <name>OriginType__c</name>
+        <picklistValues>
+            <masterLabel>Apex</masterLabel>
+            <translation><!-- Apex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Component</masterLabel>
+            <translation><!-- Component --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flow</masterLabel>
+            <translation><!-- Flow --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Origin --></label>
+        <name>Origin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Record Collection Type --></label>
+        <name>RecordCollectionType__c</name>
+        <picklistValues>
+            <masterLabel>List</masterLabel>
+            <translation><!-- List --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single Record</masterLabel>
+            <translation><!-- Single Record --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Related Record --></label>
+        <name>RecordDetailedLink__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Record ID --></label>
+        <name>RecordId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates if sensitive data was removed from the record JSON, using log entry data mask rules --></help>
+        <label><!-- Record JSON Masked --></label>
+        <name>RecordJsonMasked__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Record JSON --></label>
+        <name>RecordJson__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Record --></label>
+        <name>RecordLink__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Record Name --></label>
+        <name>RecordName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Record Object Classification --></label>
+        <name>RecordSObjectClassification__c</name>
+        <picklistValues>
+            <masterLabel>Change Event Object</masterLabel>
+            <translation><!-- Change Event Object --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chatter Feed Object</masterLabel>
+            <translation><!-- Chatter Feed Object --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom Metadata Type Object</masterLabel>
+            <translation><!-- Custom Metadata Type Object --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom Object</masterLabel>
+            <translation><!-- Custom Object --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom Setting Object</masterLabel>
+            <translation><!-- Custom Setting Object --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field History Tracking Object</masterLabel>
+            <translation><!-- Field History Tracking Object --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platform Event Object</masterLabel>
+            <translation><!-- Platform Event Object --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Record Share Object</masterLabel>
+            <translation><!-- Record Share Object --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard Object</masterLabel>
+            <translation><!-- Standard Object --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Related Record Object Namespace --></label>
+        <name>RecordSObjectTypeNamespace__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Record Object --></label>
+        <name>RecordSObjectType__c</name>
+        <picklistValues>
+            <masterLabel>Account</masterLabel>
+            <translation><!-- Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case</masterLabel>
+            <translation><!-- Case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead</masterLabel>
+            <translation><!-- Lead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User</masterLabel>
+            <translation><!-- User --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Stack Trace --></label>
+        <name>StackTrace__c</name>
+    </fields>
+    <fields>
+        <label><!-- Timestamp --></label>
+        <name>Timestamp__c</name>
+    </fields>
+    <fields>
+        <help><!-- The sequential number of this log entry within the transaction --></help>
+        <label><!-- Entry Number --></label>
+        <name>TransactionEntryNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trigger Is Executing --></label>
+        <name>TriggerIsExecuting__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trigger Operation Type --></label>
+        <name>TriggerOperationType__c</name>
+        <picklistValues>
+            <masterLabel>AFTER_DELETE</masterLabel>
+            <translation><!-- AFTER_DELETE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AFTER_INSERT</masterLabel>
+            <translation><!-- AFTER_INSERT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AFTER_UNDELETE</masterLabel>
+            <translation><!-- AFTER_UNDELETE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AFTER_UPDATE</masterLabel>
+            <translation><!-- AFTER_UPDATE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BEFORE_DELETE</masterLabel>
+            <translation><!-- BEFORE_DELETE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BEFORE_INSERT</masterLabel>
+            <translation><!-- BEFORE_INSERT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BEFORE_UPDATE</masterLabel>
+            <translation><!-- BEFORE_UPDATE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Trigger Object --></label>
+        <name>TriggerSObjectType__c</name>
+        <picklistValues>
+            <masterLabel>Account</masterLabel>
+            <translation><!-- Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case</masterLabel>
+            <translation><!-- Case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead</masterLabel>
+            <translation><!-- Lead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User</masterLabel>
+            <translation><!-- User --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Trigger --></label>
+        <name>Trigger__c</name>
+    </fields>
+    <layouts>
+        <layout>Log Entry Layout</layout>
+        <sections>
+            <label><!-- Apex Class Information --></label>
+            <section>Apex Class Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Database Result --></label>
+            <section>Database Result</section>
+        </sections>
+        <sections>
+            <label><!-- Exception Information --></label>
+            <section>Exception Information</section>
+        </sections>
+        <sections>
+            <label><!-- Flow Information --></label>
+            <section>Flow Information</section>
+        </sections>
+        <sections>
+            <label><!-- Lightning Component Information --></label>
+            <section>Lightning Component Information</section>
+        </sections>
+        <sections>
+            <label><!-- Limits --></label>
+            <section>Limits</section>
+        </sections>
+        <sections>
+            <label><!-- Message Information --></label>
+            <section>Message Information</section>
+        </sections>
+        <sections>
+            <label><!-- Related Record --></label>
+            <section>Related Record</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

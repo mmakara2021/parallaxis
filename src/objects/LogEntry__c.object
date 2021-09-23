@@ -1,0 +1,2306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>LogEntryRecordPage</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>LogEntryRecordPage</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>LogEntryCompactLayout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>LogEntryCompactLayout</fullName>
+        <fields>Name</fields>
+        <fields>Log__c</fields>
+        <fields>LoggedByUsernameLink__c</fields>
+        <fields>Timestamp__c</fields>
+        <fields>LoggingLevelWithImage__c</fields>
+        <fields>LogTransactionId__c</fields>
+        <fields>TransactionEntryNumber__c</fields>
+        <fields>EventUuid__c</fields>
+        <label>Log Entry Compact Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fieldSets>
+        <fullName>Related_List_Defaults</fullName>
+        <description>Used by the &apos;Related Log Entries&apos; component as the default fields displayed</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LoggingLevel__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Message__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Log__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Origin__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Timestamp__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Related List Defaults</label>
+    </fieldSets>
+    <fields>
+        <fullName>ApexClassApiVersion__c</fullName>
+        <deprecated>false</deprecated>
+        <description>For more details, refer to https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_apexclass.htm</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The API version for this class. Every class has an API version specified at creation.</inlineHelpText>
+        <label>Apex Class API Version</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>v53.0</fullName>
+                    <default>false</default>
+                    <label>v53.0 - Winter &apos;22 Release</label>
+                </value>
+                <value>
+                    <fullName>v52.0</fullName>
+                    <default>false</default>
+                    <label>v52.0 - Summer &apos;21 Release</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ApexClassCreatedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Apex Class Created Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ApexClassId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>For more details, refer to https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_apexclass.htm</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The ID of the Apex class in the current org.</inlineHelpText>
+        <label>Apex Class ID</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ApexClassLastModifiedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Apex Class Last Modified Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ApexClassName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Apex Class</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ApexInnerClassName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>When the log entry is created via an Apex inner class, this field is populated with the fully-qualified class name (e.g., MyClass.MyInnerClass)</inlineHelpText>
+        <label>Apex Inner Class</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ApexMethodName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Apex Method</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ComponentApiName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Component Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ComponentFunctionName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Component Function</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ComponentType__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates if the component is a lightning web component (lwc) or an aura component</inlineHelpText>
+        <label>Component Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Aura</fullName>
+                    <default>false</default>
+                    <label>Aura</label>
+                </value>
+                <value>
+                    <fullName>LWC</fullName>
+                    <default>false</default>
+                    <label>LWC</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DatabaseResultCollectionType__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Database Result Collection Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Single</fullName>
+                    <default>false</default>
+                    <label>Single Record</label>
+                </value>
+                <value>
+                    <fullName>List</fullName>
+                    <default>false</default>
+                    <label>List</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DatabaseResultJson__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Database Result JSON</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>8</visibleLines>
+    </fields>
+    <fields>
+        <fullName>DatabaseResultType__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Database Result Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Database.DeleteResult</fullName>
+                    <default>false</default>
+                    <label>Database.DeleteResult</label>
+                </value>
+                <value>
+                    <fullName>Database.MergeResult</fullName>
+                    <default>false</default>
+                    <label>Database.MergeResult</label>
+                </value>
+                <value>
+                    <fullName>Database.SaveResult</fullName>
+                    <default>false</default>
+                    <label>Database.SaveResult</label>
+                </value>
+                <value>
+                    <fullName>Database.UpsertResult</fullName>
+                    <default>false</default>
+                    <label>Database.UpsertResult</label>
+                </value>
+                <value>
+                    <fullName>Database.UpsertResult.Insert</fullName>
+                    <default>false</default>
+                    <label>Database.UpsertResult.Insert</label>
+                </value>
+                <value>
+                    <fullName>Database.UpsertResult.Update</fullName>
+                    <default>false</default>
+                    <label>Database.UpsertResult.Update</label>
+                </value>
+                <value>
+                    <fullName>Database.UndeleteResult</fullName>
+                    <default>false</default>
+                    <label>Database.UndeleteResult</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>EpochTimestamp__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Timestamp in milliseconds elapsed since 1 January 1970 of the log event</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Timestamp in milliseconds elapsed since 1 January 1970 of the log event</inlineHelpText>
+        <label>Epoch Timestamp</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EventUuid__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <deprecated>false</deprecated>
+        <description>The UUID of the LogEntryEvent__e platform event that created this LogEntry__c record.
+
+For more details, refer to https://developer.salesforce.com/docs/atlas.en-us.platform_events.meta/platform_events/platform_events_event_uuid.htm</description>
+        <externalId>true</externalId>
+        <inlineHelpText>The UUID of the LogEntryEvent__e platform event that created this LogEntry__c record.
+
+For more details, refer to https://developer.salesforce.com/docs/atlas.en-us.platform_events.meta/platform_events/platform_events_event_uuid.htm</inlineHelpText>
+        <label>Event UUID</label>
+        <length>36</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>ExceptionMessage__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Exception Message</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>8</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ExceptionStackTrace__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Exception Stack Trace</label>
+        <length>131072</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>8</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ExceptionType__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Exception Type</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Flow.FaultError</fullName>
+                    <default>false</default>
+                    <label>Flow.FaultError</label>
+                </value>
+                <value>
+                    <fullName>JavaScript.Error</fullName>
+                    <default>false</default>
+                    <label>JavaScript.Error</label>
+                </value>
+                <value>
+                    <fullName>System.AsyncException</fullName>
+                    <default>false</default>
+                    <label>System.AsyncException</label>
+                </value>
+                <value>
+                    <fullName>System.CalloutException</fullName>
+                    <default>false</default>
+                    <label>System.CalloutException</label>
+                </value>
+                <value>
+                    <fullName>System.DmlException</fullName>
+                    <default>false</default>
+                    <label>System.DmlException</label>
+                </value>
+                <value>
+                    <fullName>System.EmailException</fullName>
+                    <default>false</default>
+                    <label>System.EmailException</label>
+                </value>
+                <value>
+                    <fullName>System.ExternalObjectException</fullName>
+                    <default>false</default>
+                    <label>System.ExternalObjectException</label>
+                </value>
+                <value>
+                    <fullName>System.InvalidParameterValueException</fullName>
+                    <default>false</default>
+                    <label>System.InvalidParameterValueException</label>
+                </value>
+                <value>
+                    <fullName>System.JSONException</fullName>
+                    <default>false</default>
+                    <label>System.JSONException</label>
+                </value>
+                <value>
+                    <fullName>System.LimitException</fullName>
+                    <default>false</default>
+                    <label>System.LimitException</label>
+                </value>
+                <value>
+                    <fullName>System.ListException</fullName>
+                    <default>false</default>
+                    <label>System.ListException</label>
+                </value>
+                <value>
+                    <fullName>System.MathException</fullName>
+                    <default>false</default>
+                    <label>System.MathException</label>
+                </value>
+                <value>
+                    <fullName>System.NoAccessException</fullName>
+                    <default>false</default>
+                    <label>System.NoAccessException</label>
+                </value>
+                <value>
+                    <fullName>System.NoDataFoundException</fullName>
+                    <default>false</default>
+                    <label>System.NoDataFoundException</label>
+                </value>
+                <value>
+                    <fullName>System.NoSuchElementException</fullName>
+                    <default>false</default>
+                    <label>System.NoSuchElementException</label>
+                </value>
+                <value>
+                    <fullName>System.NullPointerException</fullName>
+                    <default>false</default>
+                    <label>System.NullPointerException</label>
+                </value>
+                <value>
+                    <fullName>System.QueryException</fullName>
+                    <default>false</default>
+                    <label>System.QueryException</label>
+                </value>
+                <value>
+                    <fullName>System.SearchException</fullName>
+                    <default>false</default>
+                    <label>System.SearchException</label>
+                </value>
+                <value>
+                    <fullName>System.SecurityException</fullName>
+                    <default>false</default>
+                    <label>System.SecurityException</label>
+                </value>
+                <value>
+                    <fullName>System.SerializationException</fullName>
+                    <default>false</default>
+                    <label>System.SerializationException</label>
+                </value>
+                <value>
+                    <fullName>System.SObjectException</fullName>
+                    <default>false</default>
+                    <label>System.SObjectException</label>
+                </value>
+                <value>
+                    <fullName>System.StringException</fullName>
+                    <default>false</default>
+                    <label>System.StringException</label>
+                </value>
+                <value>
+                    <fullName>System.TypeException</fullName>
+                    <default>false</default>
+                    <label>System.TypeException</label>
+                </value>
+                <value>
+                    <fullName>System.VisualforceException</fullName>
+                    <default>false</default>
+                    <label>System.VisualforceException</label>
+                </value>
+                <value>
+                    <fullName>System.XmlException</fullName>
+                    <default>false</default>
+                    <label>System.XmlException</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FlowActiveVersionId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The ID of the active flow version.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The ID of the active flow version.</inlineHelpText>
+        <label>Flow Active Version ID</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FlowDescription__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Flow definition information, specified by the org’s admin.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Flow definition information, specified by the org’s admin.</inlineHelpText>
+        <label>Flow Description</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>8</visibleLines>
+    </fields>
+    <fields>
+        <fullName>FlowDurableId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>For more details, refer to https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_flowdefinitionview.htm</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The ID of the flow definition.</inlineHelpText>
+        <label>Flow Durable ID</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FlowLabel__c</fullName>
+        <deprecated>false</deprecated>
+        <description>For more details, refer to https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_flowdefinitionview.htm</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The label of the flow definition.</inlineHelpText>
+        <label>Flow Label</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FlowLastModifiedByName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>For more details, refer to https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_flowdefinitionview.htm</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the user who last updated this flow definition.</inlineHelpText>
+        <label>Flow Last Modified By</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FlowLastModifiedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>For more details, refer to https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_flowdefinitionview.htm</description>
+        <externalId>false</externalId>
+        <label>Flow Last Modified Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>FlowProcessType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>For more details, refer to https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_flowdefinitionview.htm</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The type of the flow.</inlineHelpText>
+        <label>Flow Process Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Appointments</fullName>
+                    <default>false</default>
+                    <label>Appointments</label>
+                </value>
+                <value>
+                    <fullName>AutoLaunchedFlow</fullName>
+                    <default>false</default>
+                    <label>AutoLaunchedFlow</label>
+                </value>
+                <value>
+                    <fullName>CheckoutFlow</fullName>
+                    <default>false</default>
+                    <label>CheckoutFlow</label>
+                </value>
+                <value>
+                    <fullName>ContactRequestFlow</fullName>
+                    <default>false</default>
+                    <label>ContactRequestFlow</label>
+                </value>
+                <value>
+                    <fullName>CustomerLifecycle</fullName>
+                    <default>false</default>
+                    <label>CustomerLifecycle</label>
+                </value>
+                <value>
+                    <fullName>CustomEvent</fullName>
+                    <default>false</default>
+                    <label>CustomEvent</label>
+                </value>
+                <value>
+                    <fullName>FieldServiceMobile</fullName>
+                    <default>false</default>
+                    <label>FieldServiceMobile</label>
+                </value>
+                <value>
+                    <fullName>FieldServiceWeb</fullName>
+                    <default>false</default>
+                    <label>FieldServiceWeb</label>
+                </value>
+                <value>
+                    <fullName>Flow</fullName>
+                    <default>false</default>
+                    <label>Flow</label>
+                </value>
+                <value>
+                    <fullName>FSCLending</fullName>
+                    <default>false</default>
+                    <label>FSCLending</label>
+                </value>
+                <value>
+                    <fullName>InvocableProcess</fullName>
+                    <default>false</default>
+                    <label>InvocableProcess</label>
+                </value>
+                <value>
+                    <fullName>RoutingFlow</fullName>
+                    <default>false</default>
+                    <label>RoutingFlow</label>
+                </value>
+                <value>
+                    <fullName>Survey</fullName>
+                    <default>false</default>
+                    <label>Survey</label>
+                </value>
+                <value>
+                    <fullName>SurveyEnrich</fullName>
+                    <default>false</default>
+                    <label>SurveyEnrich</label>
+                </value>
+                <value>
+                    <fullName>Workflow</fullName>
+                    <default>false</default>
+                    <label>Workflow</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FlowTriggerType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>For more details, refer to https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_flowdefinitionview.htm</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Specifies what causes the flow to run.</inlineHelpText>
+        <label>Flow Trigger Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>PlatformEvent</fullName>
+                    <default>false</default>
+                    <label>PlatformEvent</label>
+                </value>
+                <value>
+                    <fullName>RecordAfterSave</fullName>
+                    <default>false</default>
+                    <label>RecordAfterSave</label>
+                </value>
+                <value>
+                    <fullName>RecordBeforeSave</fullName>
+                    <default>false</default>
+                    <label>RecordBeforeSave</label>
+                </value>
+                <value>
+                    <fullName>Scheduled</fullName>
+                    <default>false</default>
+                    <label>Scheduled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FlowVersionApiVersionRuntime__c</fullName>
+        <deprecated>false</deprecated>
+        <description>For more details, refer to https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_flowdefinitionview.htm</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The API version for running the flow. This value determines which versioned run-time behavior improvements are adopted by the flow version.</inlineHelpText>
+        <label>Flow API Version Runtime</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>v53.0</fullName>
+                    <default>false</default>
+                    <label>v53.0 - Winter &apos;22 Release</label>
+                </value>
+                <value>
+                    <fullName>v52.0</fullName>
+                    <default>false</default>
+                    <label>v52.0 - Summer &apos;21 Release</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FlowVersionNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>For more details, refer to https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_flowdefinitionview.htm</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The flow’s version number.</inlineHelpText>
+        <label>Flow Version Number</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FlowVersionRunInMode__c</fullName>
+        <deprecated>false</deprecated>
+        <description>For more details, refer to https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_flowdefinitionview.htm</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The mode that the flow runs in.</inlineHelpText>
+        <label>Flow Run-In Mode</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>DefaultMode</fullName>
+                    <default>false</default>
+                    <label>DefaultMode</label>
+                </value>
+                <value>
+                    <fullName>SystemModeWithSharing</fullName>
+                    <default>false</default>
+                    <label>SystemModeWithSharing</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>HasDatabaseResult__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>NOT(ISBLANK(TEXT(DatabaseResultType__c)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Has Database Result</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>HasExceptionStackTrace__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Has Exception Stack Trace</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>HasException__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>NOT(ISBLANK(TEXT(ExceptionType__c)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Has Exception</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>HasRecordId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>RecordId__c != null</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Has Related Record</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>HasRecordJson__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Has Related Record JSON</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>HasStackTrace__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Has Stack Trace</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>LimitsAggregateQueriesMax__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Aggregate Queries Max</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsAggregateQueriesUsed__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Aggregate Queries Used</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsAggregateQueries__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>TEXT(LimitsAggregateQueriesUsed__c ) + &apos; / &apos; + TEXT(LimitsAggregateQueriesMax__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Aggregate Queries</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsAsyncCallsMax__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Async Calls Max</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsAsyncCallsUsed__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Async Calls Used</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsAsyncCalls__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>TEXT(LimitsAsyncCallsUsed__c) + &apos; / &apos; + TEXT(LimitsAsyncCallsMax__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Async Calls</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsCalloutsMax__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Callouts Max</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsCalloutsUsed__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Callouts Used</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsCallouts__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>TEXT(LimitsCalloutsUsed__c ) + &apos; / &apos; + TEXT(LimitsCalloutsMax__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Callouts</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsCpuTimeMax__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>CPU Time Max</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsCpuTimeUsed__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>CPU Time Used</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsCpuTime__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>TEXT(LimitsCpuTimeUsed__c) + &apos; / &apos; + TEXT(LimitsCpuTimeMax__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CPU Time</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsDmlRowsMax__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>DML Rows Max</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsDmlRowsUsed__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>DML Rows Used</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsDmlRows__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>TEXT(LimitsDmlRowsUsed__c) + &apos; / &apos; + TEXT(LimitsDmlRowsMax__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DML Rows</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsDmlStatementsMax__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>DML Statements Max</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsDmlStatementsUsed__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>DML Statements Used</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsDmlStatements__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>TEXT(LimitsDmlStatementsUsed__c ) + &apos; / &apos; + TEXT(LimitsDmlStatementsMax__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DML Statements</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsEmailInvocationsMax__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Email Invocations Max</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsEmailInvocationsUsed__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Email Invocations Used</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsEmailInvocations__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>TEXT(LimitsEmailInvocationsUsed__c) + &apos; / &apos; + TEXT(LimitsEmailInvocationsMax__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Email Invocations</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsFutureCallsMax__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Future Calls Max</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsFutureCallsUsed__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Future Calls Used</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsFutureCalls__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>TEXT(LimitsFutureCallsUsed__c ) + &apos; / &apos; + TEXT(LimitsFutureCallsMax__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Future Calls</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsHeapSizeMax__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Heap Size Max</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsHeapSizeUsed__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Heap Size Used</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsHeapSize__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>TEXT(LimitsHeapSizeUsed__c) + &apos; / &apos; + TEXT(LimitsHeapSizeMax__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Heap Size</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsMobilePushApexCallsMax__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Mobile Push Apex Calls Max</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsMobilePushApexCallsUsed__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Mobile Push Apex Calls Used</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsMobilePushApexCalls__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>TEXT(LimitsMobilePushApexCallsUsed__c) + &apos; / &apos; + TEXT(LimitsMobilePushApexCallsMax__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Mobile Push Apex Calls</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsPublishImmediateDmlStatementsMax__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Publish Immediate Statements DML Max</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsPublishImmediateDmlStatementsUsed__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Publish Immediate Statements DML Used</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsPublishImmediateDmlStatements__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>TEXT(LimitsPublishImmediateDmlStatementsUsed__c) + &apos; / &apos; + TEXT(LimitsPublishImmediateDmlStatementsMax__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Publish Immediate DML Statements</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsQueueableJobsMax__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Queueable Jobs Max</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsQueueableJobsUsed__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Queueable Jobs Used</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsQueueableJobs__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>TEXT(LimitsQueueableJobsUsed__c) + &apos; / &apos; + TEXT(LimitsQueueableJobsMax__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Queueable Jobs</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsSoqlQueriesMax__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>SOQL Queries Max</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsSoqlQueriesUsed__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>SOQL Queries Used</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsSoqlQueries__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>TEXT(LimitsSoqlQueriesUsed__c) + &apos; / &apos; + TEXT(LimitsSoqlQueriesMax__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SOQL Queries</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsSoqlQueryLocatorRowsMax__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>SOQL Query Locator Rows Max</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsSoqlQueryLocatorRowsUsed__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>SOQL Query Locator Rows Used</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsSoqlQueryLocatorRows__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>TEXT(LimitsSoqlQueryLocatorRowsUsed__c) + &apos; / &apos; + TEXT(LimitsSoqlQueryLocatorRowsMax__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SOQL Query Locator Rows</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsSoqlQueryRowsMax__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>SOQL Query Rows Max</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsSoqlQueryRowsUsed__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>SOQL Query Rows Used</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsSoqlQueryRows__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>TEXT(LimitsSoqlQueryRowsUsed__c) + &apos; / &apos; + TEXT(LimitsSoqlQueryRowsMax__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SOQL Query Rows</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsSoslSearchesMax__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>SOSL Searches Max</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsSoslSearchesUsed__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>SOSL Searches Used</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LimitsSoslSearches__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>TEXT(LimitsSoslSearchesUsed__c) + &apos; / &apos; + TEXT(LimitsSoslSearchesMax__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SOSL Searches</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LogTransactionId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>Log__r.TransactionId__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Log Transaction ID</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Log__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Log</label>
+        <referenceTo>Log__c</referenceTo>
+        <relationshipLabel>Log Entries</relationshipLabel>
+        <relationshipName>LogEntries</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>LoggedByUsernameLink__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>Log__r.LoggedByUsernameLink__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Username</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoggingLevelOrdinal__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Logging Level Ordinal</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoggingLevelWithImage__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>CASE(
+    TEXT(LoggingLevel__c),
+    &apos;ERROR&apos;, IMAGE(&apos;/img/samples/flag_red.gif&apos;, &apos;&apos;, 16, 16),
+    &apos;WARN&apos;, IMAGE(&apos;/img/samples/flag_yellow.gif&apos;, &apos;&apos;, 16, 16),
+    IMAGE(&apos;/img/samples/flag_green.gif&apos;, &apos;&apos;, 16, 16)
+)
++ &apos; &apos; + TEXT(LoggingLevel__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Level</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoggingLevel__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Logging Level</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>LoggingLevel</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>MessageMasked__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates if sensitive data was removed from the message, using log entry data mask rules</inlineHelpText>
+        <label>Message Masked</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>MessageTruncated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates if the message was truncated due to being too long to fit into the Message field</inlineHelpText>
+        <label>Message Truncated</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Message__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Message</label>
+        <length>131072</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>OriginLocation__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Origin Location</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OriginType__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Origin Type</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Apex</fullName>
+                    <color>#333333</color>
+                    <default>false</default>
+                    <label>Apex</label>
+                </value>
+                <value>
+                    <fullName>Component</fullName>
+                    <color>#A845DC</color>
+                    <default>false</default>
+                    <label>Component</label>
+                </value>
+                <value>
+                    <fullName>Flow</fullName>
+                    <color>#FFCC33</color>
+                    <default>false</default>
+                    <label>Flow</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Origin__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>TEXT(OriginType__c) + IF(OriginLocation__c == null, &apos;&apos;, &apos;.&apos; + OriginLocation__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Origin</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RecordCollectionType__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Related Record Collection Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Single</fullName>
+                    <default>false</default>
+                    <label>Single Record</label>
+                </value>
+                <value>
+                    <fullName>List</fullName>
+                    <default>false</default>
+                    <label>List</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>RecordDetailedLink__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(
+    NOT(ISBLANK(RecordId__c)),
+    CASE(
+        TEXT(RecordSObjectClassification__c),
+        &apos;Custom Object&apos;, HYPERLINK(
+            &apos;/&apos; + RecordId__c,
+            TEXT(RecordSObjectType__c) + &apos;: &apos; + IF(
+                ISBLANK(RecordName__c),
+                RecordId__c,
+                RecordName__c
+            ),
+            &apos;_top&apos;
+        ),
+        &apos;Standard Object&apos;, HYPERLINK(
+            &apos;/&apos; + RecordId__c,
+            TEXT(RecordSObjectType__c) + &apos;: &apos; + IF(
+                ISBLANK(RecordName__c),
+                RecordId__c,
+                RecordName__c
+            ),
+            &apos;_top&apos;
+        ),
+        IF(
+            ISBLANK(RecordId__c),
+            null,
+            IF(
+                ISBLANK(RecordName__c) &amp;&amp; NOT(ISBLANK(RecordId__c)),
+                TEXT(RecordSObjectType__c) + &apos;: &apos; + RecordId__c,
+                TEXT(RecordSObjectType__c) + &apos;: &apos; + RecordName__c
+            )
+        )
+    ),
+    IF(
+        ISBLANK(TEXT(RecordCollectionType__c)),
+        &apos;&apos;,
+        IF(
+            TEXT(RecordCollectionType__c) = &apos;Map&apos;,
+            TEXT(RecordCollectionType__c) + &apos;&lt;Id, &apos; + TEXT(RecordSObjectType__c) + &apos;&gt;&apos;,
+            TEXT(RecordCollectionType__c) + &apos;&lt;&apos; + TEXT(RecordSObjectType__c) + &apos;&gt;&apos;
+        )
+    )
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Related Record</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RecordId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>true</externalId>
+        <label>Related Record ID</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RecordJsonMasked__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates if sensitive data was removed from the record JSON, using log entry data mask rules</inlineHelpText>
+        <label>Record JSON Masked</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>RecordJson__c</fullName>
+        <deprecated>false</deprecated>
+        <description>JSON of the related SObject record</description>
+        <externalId>false</externalId>
+        <label>Related Record JSON</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>8</visibleLines>
+    </fields>
+    <fields>
+        <fullName>RecordLink__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(
+    NOT(ISBLANK(RecordId__c)),
+    CASE(
+        TEXT(RecordSObjectClassification__c),
+        &apos;Custom Object&apos;, HYPERLINK(
+            &apos;/&apos; + RecordId__c,
+            IF(
+                ISBLANK(RecordName__c),
+                RecordId__c,
+                RecordName__c
+            ),
+            &apos;_top&apos;
+        ),
+        &apos;Standard Object&apos;, HYPERLINK(
+            &apos;/&apos; + RecordId__c,
+            IF(
+                ISBLANK(RecordName__c),
+                RecordId__c,
+                RecordName__c
+            ),
+            &apos;_top&apos;
+        ),
+        IF(
+            ISBLANK(RecordName__c),
+            RecordId__c,
+            RecordName__c
+        )
+    ),
+    IF(
+        ISBLANK(TEXT(RecordCollectionType__c)),
+        &apos;&apos;,
+        IF(
+            TEXT(RecordCollectionType__c) = &apos;Map&apos;,
+            TEXT(RecordCollectionType__c) + &apos;&lt;Id, &apos; + TEXT(RecordSObjectType__c) + &apos;&gt;&apos;,
+            TEXT(RecordCollectionType__c) + &apos;&lt;&apos; + TEXT(RecordSObjectType__c) + &apos;&gt;&apos;
+        )
+    )
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Related Record</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RecordName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Related Record Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RecordSObjectClassification__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Related Record Object Classification</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Change Event Object</fullName>
+                    <default>false</default>
+                    <label>Change Event Object</label>
+                </value>
+                <value>
+                    <fullName>Chatter Feed Object</fullName>
+                    <default>false</default>
+                    <label>Chatter Feed Object</label>
+                </value>
+                <value>
+                    <fullName>Custom Metadata Type Object</fullName>
+                    <default>false</default>
+                    <label>Custom Metadata Type Object</label>
+                </value>
+                <value>
+                    <fullName>Custom Object</fullName>
+                    <default>false</default>
+                    <label>Custom Object</label>
+                </value>
+                <value>
+                    <fullName>Custom Setting Object</fullName>
+                    <default>false</default>
+                    <label>Custom Setting Object</label>
+                </value>
+                <value>
+                    <fullName>Field History Tracking Object</fullName>
+                    <default>false</default>
+                    <label>Field History Tracking Object</label>
+                </value>
+                <value>
+                    <fullName>Platform Event Object</fullName>
+                    <default>false</default>
+                    <label>Platform Event Object</label>
+                </value>
+                <value>
+                    <fullName>Record Share Object</fullName>
+                    <default>false</default>
+                    <label>Record Share Object</label>
+                </value>
+                <value>
+                    <fullName>Standard Object</fullName>
+                    <default>false</default>
+                    <label>Standard Object</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>RecordSObjectTypeNamespace__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>true</externalId>
+        <label>Related Record Object Namespace</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RecordSObjectType__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Related Record Object</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Account</fullName>
+                    <default>false</default>
+                    <label>Account</label>
+                </value>
+                <value>
+                    <fullName>Case</fullName>
+                    <default>false</default>
+                    <label>Case</label>
+                </value>
+                <value>
+                    <fullName>Lead</fullName>
+                    <default>false</default>
+                    <label>Lead</label>
+                </value>
+                <value>
+                    <fullName>User</fullName>
+                    <default>false</default>
+                    <label>User</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>StackTrace__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Stack Trace</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>8</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Timestamp__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Timestamp</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>TransactionEntryNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The sequential number of this log entry within the transaction</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The sequential number of this log entry within the transaction</inlineHelpText>
+        <label>Entry Number</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TriggerIsExecuting__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Trigger Is Executing</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TriggerOperationType__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Trigger Operation Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>AFTER_DELETE</fullName>
+                    <default>false</default>
+                    <label>AFTER_DELETE</label>
+                </value>
+                <value>
+                    <fullName>AFTER_INSERT</fullName>
+                    <default>false</default>
+                    <label>AFTER_INSERT</label>
+                </value>
+                <value>
+                    <fullName>AFTER_UNDELETE</fullName>
+                    <default>false</default>
+                    <label>AFTER_UNDELETE</label>
+                </value>
+                <value>
+                    <fullName>AFTER_UPDATE</fullName>
+                    <default>false</default>
+                    <label>AFTER_UPDATE</label>
+                </value>
+                <value>
+                    <fullName>BEFORE_DELETE</fullName>
+                    <default>false</default>
+                    <label>BEFORE_DELETE</label>
+                </value>
+                <value>
+                    <fullName>BEFORE_INSERT</fullName>
+                    <default>false</default>
+                    <label>BEFORE_INSERT</label>
+                </value>
+                <value>
+                    <fullName>BEFORE_UPDATE</fullName>
+                    <default>false</default>
+                    <label>BEFORE_UPDATE</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TriggerSObjectType__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Trigger Object</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Account</fullName>
+                    <default>false</default>
+                    <label>Account</label>
+                </value>
+                <value>
+                    <fullName>Case</fullName>
+                    <default>false</default>
+                    <label>Case</label>
+                </value>
+                <value>
+                    <fullName>Lead</fullName>
+                    <default>false</default>
+                    <label>Lead</label>
+                </value>
+                <value>
+                    <fullName>User</fullName>
+                    <default>false</default>
+                    <label>User</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Trigger__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(
+    TriggerIsExecuting__c,
+    TEXT(TriggerSObjectType__c) + &apos;.&apos; + TEXT(TriggerOperationType__c),
+    null
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Trigger</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Log Entry</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Log__c</columns>
+        <columns>LoggingLevelWithImage__c</columns>
+        <columns>LoggedByUsernameLink__c</columns>
+        <columns>Message__c</columns>
+        <columns>OriginType__c</columns>
+        <columns>OriginLocation__c</columns>
+        <columns>RecordDetailedLink__c</columns>
+        <columns>Timestamp__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>AllApexLogEntries</fullName>
+        <columns>NAME</columns>
+        <columns>Log__c</columns>
+        <columns>LoggingLevelWithImage__c</columns>
+        <columns>LoggedByUsernameLink__c</columns>
+        <columns>Message__c</columns>
+        <columns>ApexClassName__c</columns>
+        <columns>ApexInnerClassName__c</columns>
+        <columns>ApexMethodName__c</columns>
+        <columns>Timestamp__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OriginType__c</field>
+            <operation>equals</operation>
+            <value>Apex</value>
+        </filters>
+        <label>All Apex Log Entries</label>
+    </listViews>
+    <listViews>
+        <fullName>AllComponentLogEntries</fullName>
+        <columns>NAME</columns>
+        <columns>Log__c</columns>
+        <columns>LoggingLevelWithImage__c</columns>
+        <columns>LoggedByUsernameLink__c</columns>
+        <columns>Message__c</columns>
+        <columns>ComponentType__c</columns>
+        <columns>ComponentApiName__c</columns>
+        <columns>ComponentFunctionName__c</columns>
+        <columns>Timestamp__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OriginType__c</field>
+            <operation>equals</operation>
+            <value>Component</value>
+        </filters>
+        <label>All Component Log Entries</label>
+    </listViews>
+    <listViews>
+        <fullName>AllERRORandWARNLogEntries</fullName>
+        <columns>NAME</columns>
+        <columns>Log__c</columns>
+        <columns>LoggingLevelWithImage__c</columns>
+        <columns>LoggedByUsernameLink__c</columns>
+        <columns>Message__c</columns>
+        <columns>OriginType__c</columns>
+        <columns>OriginLocation__c</columns>
+        <columns>RecordDetailedLink__c</columns>
+        <columns>Timestamp__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LoggingLevel__c</field>
+            <operation>equals</operation>
+            <value>ERROR,WARN</value>
+        </filters>
+        <label>All ERROR and WARN Log Entries</label>
+    </listViews>
+    <listViews>
+        <fullName>AllFlowLogEntries</fullName>
+        <columns>NAME</columns>
+        <columns>Log__c</columns>
+        <columns>LoggingLevelWithImage__c</columns>
+        <columns>LoggedByUsernameLink__c</columns>
+        <columns>Message__c</columns>
+        <columns>OriginLocation__c</columns>
+        <columns>FlowProcessType__c</columns>
+        <columns>FlowTriggerType__c</columns>
+        <columns>Timestamp__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OriginType__c</field>
+            <operation>equals</operation>
+            <value>Flow</value>
+        </filters>
+        <label>All Flow Log Entries</label>
+    </listViews>
+    <nameField>
+        <label>Entry ID</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Log Entries</pluralLabel>
+    <searchLayouts>
+        <excludedStandardButtons>New</excludedStandardButtons>
+        <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Import</excludedStandardButtons>
+        <excludedStandardButtons>MassChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>PrintableListView</excludedStandardButtons>
+        <excludedStandardButtons>IsotopeSubscription</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Log__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Timestamp__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>LoggingLevelWithImage__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Message__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Log__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Timestamp__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LoggingLevelWithImage__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Message__c</lookupPhoneDialogsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

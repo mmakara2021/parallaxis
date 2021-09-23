@@ -1,0 +1,2257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>LogRecordPage</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>LogRecordPage</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>LogCompactLayout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>LogCompactLayout</fullName>
+        <fields>Name</fields>
+        <fields>LoggedByUsernameLink__c</fields>
+        <fields>StartTime__c</fields>
+        <fields>OwnerId</fields>
+        <fields>Priority__c</fields>
+        <fields>Status__c</fields>
+        <fields>LogEntriesSummary__c</fields>
+        <fields>ParentLog__c</fields>
+        <label>Log Compact Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>ApiReleaseNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The release number for the org&apos;s instance - determined by making a callout to status.salesforce.com</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The release number for the org&apos;s instance - determined by making a callout to status.salesforce.com</inlineHelpText>
+        <label>API Release Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ApiReleaseVersion__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The release version for the org&apos;s instance - determined by making a callout to status.salesforce.com</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The release version for the org&apos;s instance - determined by making a callout to status.salesforce.com</inlineHelpText>
+        <label>API Release Version</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ApiVersion__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Salesforce release (API version) of the environment</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Salesforce release (API version) of the environment</inlineHelpText>
+        <label>API Version</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>v53.0</fullName>
+                    <default>false</default>
+                    <label>v53.0 - Winter &apos;22 Release</label>
+                </value>
+                <value>
+                    <fullName>v52.0</fullName>
+                    <default>false</default>
+                    <label>v52.0 - Summer &apos;21 Release</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ClosedBy__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Closed By</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>ClosedLogs</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ClosedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Closed Date</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Comments__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Comments</label>
+        <length>4000</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>8</visibleLines>
+    </fields>
+    <fields>
+        <fullName>EndTime__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>End Time</label>
+        <summarizedField>LogEntry__c.Timestamp__c</summarizedField>
+        <summaryForeignKey>LogEntry__c.Log__c</summaryForeignKey>
+        <summaryOperation>max</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>IsClosed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Is Closed</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsResolved__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Is Resolved</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Issue__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Issue</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Code Issue</fullName>
+                    <default>false</default>
+                    <label>Code Issue</label>
+                </value>
+                <value>
+                    <fullName>Config Issue</fullName>
+                    <default>false</default>
+                    <label>Config Issue</label>
+                </value>
+                <value>
+                    <fullName>Data Issue</fullName>
+                    <default>false</default>
+                    <label>Data Issue</label>
+                </value>
+                <value>
+                    <fullName>Integration Issue</fullName>
+                    <default>false</default>
+                    <label>Integration Issue</label>
+                </value>
+                <value>
+                    <fullName>No Issue</fullName>
+                    <default>false</default>
+                    <label>No Issue</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Locale__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Locale</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LogEntriesSummary__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>TEXT(TotalLogEntries__c) + &apos; total entries&apos;
++ IF(
+    TotalERRORLogEntries__c = 0,
+    &apos;&apos;,
+    &apos;, &apos; + TEXT(TotalERRORLogEntries__c) + &apos; error(s)&apos;
+)
++ IF(
+    TotalWARNLogEntries__c = 0,
+    &apos;&apos;,
+    &apos;, &apos; + TEXT(TotalWARNLogEntries__c) + &apos; warning(s)&apos;
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Summary</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LogRetentionDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date that this log can be automatically deleted by the batch job LogBatchPurger.
+
+It defaults to 2 weeks after creation (configurable in Logger Settings), but the date can be set manually or via automation if certain logs need to be kept longer/indefinitely.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date that this log can be automatically deleted by the batch job LogBatchPurger.</inlineHelpText>
+        <label>Log Retention Date</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>LoggedByUsernameLink__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(
+    ISBLANK(LoggedBy__c),
+    &apos;Anonymous&apos;,
+    HYPERLINK(
+        LoggedBy__c,
+        IF(
+            ISPICKVAL(UserType__c, &apos;AutomatedProcess&apos;),
+            TRIM(LoggedBy__r.FirstName + &apos; &apos; + LoggedBy__r.LastName),
+            LoggedByUsername__c
+        ),
+        &apos;_top&apos;
+    )
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Username</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoggedByUsername__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Username</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoggedBy__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Logged By</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Logs</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>LoginApplication__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Login Application</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoginBrowser__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Login Browser</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoginDomain__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>DEPRECATED: Login Domain</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>LoginHistoryId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Login History ID</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoginPlatform__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Login Platform</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoginType__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Login Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Application</fullName>
+                    <default>false</default>
+                    <label>Application</label>
+                </value>
+                <value>
+                    <fullName>Remote Access 2.0</fullName>
+                    <default>false</default>
+                    <label>Remote Access 2.0</label>
+                </value>
+                <value>
+                    <fullName>SAML Idp Initiated SSO</fullName>
+                    <default>false</default>
+                    <label>SAML Idp Initiated SSO</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LogoutUrl__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Logout URL</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>MaxLogEntryLoggingLevelOrdinal__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The highest logging level ordinal of any related log entries</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The highest logging level ordinal of any related log entries</inlineHelpText>
+        <label>Max Log Entry Logging Level Ordinal</label>
+        <summarizedField>LogEntry__c.LoggingLevelOrdinal__c</summarizedField>
+        <summaryForeignKey>LogEntry__c.Log__c</summaryForeignKey>
+        <summaryOperation>max</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>NetworkId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Network ID of the Community user&apos;s site. Set with Network.getNetworkId()</description>
+        <externalId>true</externalId>
+        <inlineHelpText>The Network ID of the user&apos;s Community site.</inlineHelpText>
+        <label>Site Network ID</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NetworkLoginUrl__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Site Login URL</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>NetworkLogoutUrl__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Site Logout URL</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>NetworkName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the user&apos;s Community site (based on NetworkId).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the user&apos;s Community site (based on NetworkId).</inlineHelpText>
+        <label>Site Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NetworkSelfRegistrationUrl__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Site Self Registration URL</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>NetworkUrlPathPrefix__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The UrlPathPrefix is a unique string at the end of the URL for this community. For example, in the community URL CommunitiesSubdomainName.force.com/customers, customers is the UrlPathPrefix.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The UrlPathPrefix is a unique string at the end of the URL for this community. For example, in the community URL CommunitiesSubdomainName.force.com/customers, customers is the UrlPathPrefix.</inlineHelpText>
+        <label>Site URL Path Prefix</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OrganizationDomainUrl__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The value returned from Url..getOrgDomainUrl()</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The value returned from Url..getOrgDomainUrl()</inlineHelpText>
+        <label>Organization Domain URL</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>OrganizationEnvironmentType__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Environment Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Production</fullName>
+                    <default>false</default>
+                    <label>Production</label>
+                </value>
+                <value>
+                    <fullName>Sandbox</fullName>
+                    <default>false</default>
+                    <label>Sandbox</label>
+                </value>
+                <value>
+                    <fullName>Scratch Org</fullName>
+                    <default>false</default>
+                    <label>Scratch Org</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Organization ID</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OrganizationInstanceName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Instance Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OrganizationInstanceReleaseCycle__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Instance Release Cycle</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Preview Instance</fullName>
+                    <default>false</default>
+                    <label>Preview Instance</label>
+                </value>
+                <value>
+                    <fullName>Non-Preview Instance</fullName>
+                    <default>false</default>
+                    <label>Non-Preview Instance</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OrganizationName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Organization Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OrganizationNamespacePrefix__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Organization Namespace Prefix</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OrganizationType__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Organization Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Team Edition</fullName>
+                    <default>false</default>
+                    <label>Team Edition</label>
+                </value>
+                <value>
+                    <fullName>Professional Edition</fullName>
+                    <default>false</default>
+                    <label>Professional Edition</label>
+                </value>
+                <value>
+                    <fullName>Enterprise Edition</fullName>
+                    <default>false</default>
+                    <label>Enterprise Edition</label>
+                </value>
+                <value>
+                    <fullName>Developer Edition</fullName>
+                    <default>false</default>
+                    <label>Developer Edition</label>
+                </value>
+                <value>
+                    <fullName>Personal Edition</fullName>
+                    <default>false</default>
+                    <label>Personal Edition</label>
+                </value>
+                <value>
+                    <fullName>Unlimited Edition</fullName>
+                    <default>false</default>
+                    <label>Unlimited Edition</label>
+                </value>
+                <value>
+                    <fullName>Contact Manager Edition</fullName>
+                    <default>false</default>
+                    <label>Contact Manager Edition</label>
+                </value>
+                <value>
+                    <fullName>Base Edition</fullName>
+                    <default>false</default>
+                    <label>Base Edition</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ParentLog__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The log from the original transaction that initiated a child log - for example, batch jobs have start, execute and finish methods. All 3 are considered separate transactions. By using the parent log, logs from all 3 transactions can be linked together.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The log from the original transaction that initiated a child log - for example, batch jobs have start, execute and finish methods. All 3 are considered separate transactions. By using the parent log, logs from all 3 transactions can be linked together.</inlineHelpText>
+        <label>Parent Log</label>
+        <referenceTo>Log__c</referenceTo>
+        <relationshipLabel>Related Logs</relationshipLabel>
+        <relationshipName>ChildLogs</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Priority__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Priority</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>High</fullName>
+                    <color>#FF6666</color>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <color>#FFCC66</color>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>Low</fullName>
+                    <color>#66FF99</color>
+                    <default>true</default>
+                    <label>Low</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ProfileId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Profile ID</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ProfileLink__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&apos;/&apos; + ProfileId__c, ProfileName__c, &apos;_top&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Profile</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ProfileName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Profile Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SessionId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Session ID</label>
+        <length>120</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SessionSecurityLevel__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Session Security Level</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>LOW</fullName>
+                    <default>false</default>
+                    <label>LOW</label>
+                </value>
+                <value>
+                    <fullName>STANDARD</fullName>
+                    <default>false</default>
+                    <label>STANDARD</label>
+                </value>
+                <value>
+                    <fullName>HIGH_ASSURANCE</fullName>
+                    <default>false</default>
+                    <label>HIGH_ASSURANCE</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SessionType__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Session Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Aura</fullName>
+                    <default>false</default>
+                    <label>Aura</label>
+                </value>
+                <value>
+                    <fullName>Oauth2</fullName>
+                    <default>false</default>
+                    <label>Oauth2</label>
+                </value>
+                <value>
+                    <fullName>UI</fullName>
+                    <default>false</default>
+                    <label>UI</label>
+                </value>
+                <value>
+                    <fullName>Visualforce</fullName>
+                    <default>false</default>
+                    <label>Visualforce</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SourceIp__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Source IP</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>StartTime__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Start Time</label>
+        <summarizedField>LogEntry__c.Timestamp__c</summarizedField>
+        <summaryForeignKey>LogEntry__c.Log__c</summaryForeignKey>
+        <summaryOperation>min</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <default>true</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Ignored</fullName>
+                    <default>false</default>
+                    <label>Ignored</label>
+                </value>
+                <value>
+                    <fullName>On Hold</fullName>
+                    <default>false</default>
+                    <label>On Hold</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Done</fullName>
+                    <default>false</default>
+                    <label>Done</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SystemModeSummary__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>&apos;API.&apos; +  TEXT(ApiVersion__c) + &apos;.&apos; + TEXT(SystemMode__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>System Mode</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SystemMode__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>System Mode</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ANONYMOUS</fullName>
+                    <default>false</default>
+                    <label>ANONYMOUS</label>
+                </value>
+                <value>
+                    <fullName>AURA</fullName>
+                    <default>false</default>
+                    <label>AURA</label>
+                </value>
+                <value>
+                    <fullName>BATCH_ACS</fullName>
+                    <default>false</default>
+                    <label>BATCH_ACS</label>
+                </value>
+                <value>
+                    <fullName>BATCH_APEX</fullName>
+                    <default>false</default>
+                    <label>BATCH_APEX</label>
+                </value>
+                <value>
+                    <fullName>BATCH_CHUNK_PARALLEL</fullName>
+                    <default>false</default>
+                    <label>BATCH_CHUNK_PARALLEL</label>
+                </value>
+                <value>
+                    <fullName>BATCH_CHUNK_SERIAL</fullName>
+                    <default>false</default>
+                    <label>BATCH_CHUNK_SERIAL</label>
+                </value>
+                <value>
+                    <fullName>BULK_API</fullName>
+                    <default>false</default>
+                    <label>BULK_API</label>
+                </value>
+                <value>
+                    <fullName>COMMERCE_INTEGRATION</fullName>
+                    <default>false</default>
+                    <label>COMMERCE_INTEGRATION</label>
+                </value>
+                <value>
+                    <fullName>DISCOVERABLE_LOGIN</fullName>
+                    <default>false</default>
+                    <label>DISCOVERABLE_LOGIN</label>
+                </value>
+                <value>
+                    <fullName>FUNCTION_CALLBACK</fullName>
+                    <default>false</default>
+                    <label>FUNCTION_CALLBACK</label>
+                </value>
+                <value>
+                    <fullName>FUTURE</fullName>
+                    <default>false</default>
+                    <label>FUTURE</label>
+                </value>
+                <value>
+                    <fullName>INBOUND_EMAIL_SERVIC</fullName>
+                    <default>false</default>
+                    <label>INBOUND_EMAIL_SERVIC</label>
+                </value>
+                <value>
+                    <fullName>INVOCABLE_ACTION</fullName>
+                    <default>false</default>
+                    <label>INVOCABLE_ACTION</label>
+                </value>
+                <value>
+                    <fullName>IOT</fullName>
+                    <default>false</default>
+                    <label>IOT</label>
+                </value>
+                <value>
+                    <fullName>QUEUEABLE</fullName>
+                    <default>false</default>
+                    <label>QUEUEABLE</label>
+                </value>
+                <value>
+                    <fullName>QUICK_ACTION</fullName>
+                    <default>false</default>
+                    <label>QUICK_ACTION</label>
+                </value>
+                <value>
+                    <fullName>REMOTE_ACTION</fullName>
+                    <default>false</default>
+                    <label>REMOTE_ACTION</label>
+                </value>
+                <value>
+                    <fullName>REST</fullName>
+                    <default>false</default>
+                    <label>REST</label>
+                </value>
+                <value>
+                    <fullName>RUNTEST_ASYNC</fullName>
+                    <default>false</default>
+                    <label>RUNTEST_ASYNC</label>
+                </value>
+                <value>
+                    <fullName>RUNTEST_DEPLOY</fullName>
+                    <default>false</default>
+                    <label>RUNTEST_DEPLOY</label>
+                </value>
+                <value>
+                    <fullName>RUNTEST_SYNC</fullName>
+                    <default>false</default>
+                    <label>RUNTEST_SYNC</label>
+                </value>
+                <value>
+                    <fullName>SCHEDULED</fullName>
+                    <default>false</default>
+                    <label>SCHEDULED</label>
+                </value>
+                <value>
+                    <fullName>SOAP</fullName>
+                    <default>false</default>
+                    <label>SOAP</label>
+                </value>
+                <value>
+                    <fullName>SYNCHRONOUS</fullName>
+                    <default>false</default>
+                    <label>SYNCHRONOUS</label>
+                </value>
+                <value>
+                    <fullName>TRANSACTION_FINALIZE</fullName>
+                    <default>false</default>
+                    <label>TRANSACTION_FINALIZE</label>
+                </value>
+                <value>
+                    <fullName>VF</fullName>
+                    <default>false</default>
+                    <label>VF</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ThemeDisplayed__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Theme Displayed</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Theme1</fullName>
+                    <default>false</default>
+                    <label>Obsolete Salesforce Theme</label>
+                </value>
+                <value>
+                    <fullName>Theme2</fullName>
+                    <default>false</default>
+                    <label>Salesforce Classic 2005</label>
+                </value>
+                <value>
+                    <fullName>Theme3</fullName>
+                    <default>false</default>
+                    <label>Salesforce Classic</label>
+                </value>
+                <value>
+                    <fullName>Theme4d</fullName>
+                    <default>false</default>
+                    <label>Lightning Experience</label>
+                </value>
+                <value>
+                    <fullName>Theme4t</fullName>
+                    <default>false</default>
+                    <label>Salesforce Mobile App</label>
+                </value>
+                <value>
+                    <fullName>Theme4u</fullName>
+                    <default>false</default>
+                    <label>Lightning Console</label>
+                </value>
+                <value>
+                    <fullName>PortalDefault</fullName>
+                    <default>false</default>
+                    <label>Customer Portal</label>
+                </value>
+                <value>
+                    <fullName>Webstore</fullName>
+                    <default>false</default>
+                    <label>AppExchange</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TimeZoneId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Time Zone ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TimeZoneName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Time Zone Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TotalDEBUGLogEntries__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total number of log entries with logging level == &apos;DEBUG&apos;</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total number of log entries with logging level == &apos;DEBUG&apos;</inlineHelpText>
+        <label>Total DEBUG Entries</label>
+        <summaryFilterItems>
+            <field>LogEntry__c.LoggingLevel__c</field>
+            <operation>equals</operation>
+            <value>DEBUG</value>
+        </summaryFilterItems>
+        <summaryForeignKey>LogEntry__c.Log__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>TotalERRORLogEntries__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total number of log entries with logging level == &apos;ERROR&apos;</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total number of log entries with logging level == &apos;ERROR&apos;</inlineHelpText>
+        <label>Total ERROR Entries</label>
+        <summaryFilterItems>
+            <field>LogEntry__c.LoggingLevel__c</field>
+            <operation>equals</operation>
+            <value>ERROR</value>
+        </summaryFilterItems>
+        <summaryForeignKey>LogEntry__c.Log__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>TotalFINELogEntries__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total number of log entries with logging level == &apos;FINE&apos;</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total number of log entries with logging level == &apos;FINE&apos;</inlineHelpText>
+        <label>Total FINE Entries</label>
+        <summaryFilterItems>
+            <field>LogEntry__c.LoggingLevel__c</field>
+            <operation>equals</operation>
+            <value>FINE</value>
+        </summaryFilterItems>
+        <summaryForeignKey>LogEntry__c.Log__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>TotalFINERLogEntries__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total number of log entries with logging level == &apos;FINER&apos;</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total number of log entries with logging level == &apos;FINER&apos;</inlineHelpText>
+        <label>Total FINER Entries</label>
+        <summaryFilterItems>
+            <field>LogEntry__c.LoggingLevel__c</field>
+            <operation>equals</operation>
+            <value>FINER</value>
+        </summaryFilterItems>
+        <summaryForeignKey>LogEntry__c.Log__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>TotalFINESTLogEntries__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total number of log entries with logging level == &apos;FINEST&apos;</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total number of log entries with logging level == &apos;FINEST&apos;</inlineHelpText>
+        <label>Total FINEST Entries</label>
+        <summaryFilterItems>
+            <field>LogEntry__c.LoggingLevel__c</field>
+            <operation>equals</operation>
+            <value>FINEST</value>
+        </summaryFilterItems>
+        <summaryForeignKey>LogEntry__c.Log__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>TotalINFOLogEntries__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total number of log entries with logging level == &apos;INFO&apos;</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total number of log entries with logging level == &apos;INFO&apos;</inlineHelpText>
+        <label>Total INFO Entries</label>
+        <summaryFilterItems>
+            <field>LogEntry__c.LoggingLevel__c</field>
+            <operation>equals</operation>
+            <value>INFO</value>
+        </summaryFilterItems>
+        <summaryForeignKey>LogEntry__c.Log__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>TotalLimitsCpuTimeUsed__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Total CPU</label>
+        <summarizedField>LogEntry__c.LimitsCpuTimeUsed__c</summarizedField>
+        <summaryForeignKey>LogEntry__c.Log__c</summaryForeignKey>
+        <summaryOperation>max</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>TotalLogEntries__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>TotalERRORLogEntries__c
++ TotalWARNLogEntries__c
++ TotalINFOLogEntries__c
++ TotalDEBUGLogEntries__c
++ TotalFINELogEntries__c
++ TotalFINERLogEntries__c
++ TotalFINESTLogEntries__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Entries</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TotalWARNLogEntries__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The total number of log entries with logging level == &apos;WARN&apos;</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total number of log entries with logging level == &apos;WARN&apos;</inlineHelpText>
+        <label>Total WARN Entries</label>
+        <summaryFilterItems>
+            <field>LogEntry__c.LoggingLevel__c</field>
+            <operation>equals</operation>
+            <value>WARN</value>
+        </summaryFilterItems>
+        <summaryForeignKey>LogEntry__c.Log__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>TransactionId__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <deprecated>false</deprecated>
+        <externalId>true</externalId>
+        <label>Transaction ID</label>
+        <length>36</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>UserLicenseDefinitionKey__c</fullName>
+        <deprecated>false</deprecated>
+        <description>https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_userlicense.htm</description>
+        <externalId>false</externalId>
+        <label>User License Definition Key</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>AUL</fullName>
+                    <default>false</default>
+                    <label>AUL</label>
+                </value>
+                <value>
+                    <fullName>AUL_LIGHT</fullName>
+                    <default>false</default>
+                    <label>AUL_LIGHT</label>
+                </value>
+                <value>
+                    <fullName>AUL1</fullName>
+                    <default>false</default>
+                    <label>AUL1</label>
+                </value>
+                <value>
+                    <fullName>FDC_ONE</fullName>
+                    <default>false</default>
+                    <label>FDC_ONE</label>
+                </value>
+                <value>
+                    <fullName>FDC_SUB</fullName>
+                    <default>false</default>
+                    <label>FDC_SUB</label>
+                </value>
+                <value>
+                    <fullName>Overage_Platform_Portal_User</fullName>
+                    <default>false</default>
+                    <label>Overage_Platform_Portal_User</label>
+                </value>
+                <value>
+                    <fullName>PID_CHATTER</fullName>
+                    <default>false</default>
+                    <label>PID_CHATTER</label>
+                </value>
+                <value>
+                    <fullName>PID_CONTENT</fullName>
+                    <default>false</default>
+                    <label>PID_CONTENT</label>
+                </value>
+                <value>
+                    <fullName>PID_Customer_Community</fullName>
+                    <default>false</default>
+                    <label>PID_Customer_Community</label>
+                </value>
+                <value>
+                    <fullName>PID_Customer_Community_Login</fullName>
+                    <default>false</default>
+                    <label>PID_Customer_Community_Login</label>
+                </value>
+                <value>
+                    <fullName>PID_Customer_Portal_Basic</fullName>
+                    <default>false</default>
+                    <label>PID_Customer_Portal_Basic</label>
+                </value>
+                <value>
+                    <fullName>PID_Customer_Portal_Standard</fullName>
+                    <default>false</default>
+                    <label>PID_Customer_Portal_Standard</label>
+                </value>
+                <value>
+                    <fullName>PID_FDC_FREE</fullName>
+                    <default>false</default>
+                    <label>PID_FDC_FREE</label>
+                </value>
+                <value>
+                    <fullName>PID_IDEAS</fullName>
+                    <default>false</default>
+                    <label>PID_IDEAS</label>
+                </value>
+                <value>
+                    <fullName>PID_Ideas_Only_Portal</fullName>
+                    <default>false</default>
+                    <label>PID_Ideas_Only_Portal</label>
+                </value>
+                <value>
+                    <fullName>PID_Ideas_Only_Site</fullName>
+                    <default>false</default>
+                    <label>PID_Ideas_Only_Site</label>
+                </value>
+                <value>
+                    <fullName>PID_KNOWLEDGE</fullName>
+                    <default>false</default>
+                    <label>PID_KNOWLEDGE</label>
+                </value>
+                <value>
+                    <fullName>PID_Limited_Customer_Portal_Basic</fullName>
+                    <default>false</default>
+                    <label>PID_Limited_Customer_Portal_Basic</label>
+                </value>
+                <value>
+                    <fullName>PID_Limited_Customer_Portal_Standard</fullName>
+                    <default>false</default>
+                    <label>PID_Limited_Customer_Portal_Standard</label>
+                </value>
+                <value>
+                    <fullName>PID_Overage_Customer_Portal_Basic</fullName>
+                    <default>false</default>
+                    <label>PID_Overage_Customer_Portal_Basic</label>
+                </value>
+                <value>
+                    <fullName>PID_Overage_High</fullName>
+                    <default>false</default>
+                    <label>PID_Overage_High</label>
+                </value>
+                <value>
+                    <fullName>PID_Partner_Community</fullName>
+                    <default>false</default>
+                    <label>PID_Partner_Community</label>
+                </value>
+                <value>
+                    <fullName>PID_Partner_Community_Login</fullName>
+                    <default>false</default>
+                    <label>PID_Partner_Community_Login</label>
+                </value>
+                <value>
+                    <fullName>PID_STRATEGIC_PRM</fullName>
+                    <default>false</default>
+                    <label>PID_STRATEGIC_PRM</label>
+                </value>
+                <value>
+                    <fullName>Platform_Portal_User</fullName>
+                    <default>false</default>
+                    <label>Platform_Portal_User</label>
+                </value>
+                <value>
+                    <fullName>POWER_PRM</fullName>
+                    <default>false</default>
+                    <label>POWER_PRM</label>
+                </value>
+                <value>
+                    <fullName>POWER_SSP</fullName>
+                    <default>false</default>
+                    <label>POWER_SSP</label>
+                </value>
+                <value>
+                    <fullName>SFDC</fullName>
+                    <default>false</default>
+                    <label>SFDC</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>UserLicenseId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>User License ID</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>UserLicenseName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>User License Name</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Analytics Cloud Integration User</fullName>
+                    <default>false</default>
+                    <label>Analytics Cloud Integration User</label>
+                </value>
+                <value>
+                    <fullName>Authenticated Website</fullName>
+                    <default>false</default>
+                    <label>Authenticated Website</label>
+                </value>
+                <value>
+                    <fullName>Chatter External</fullName>
+                    <default>false</default>
+                    <label>Chatter External</label>
+                </value>
+                <value>
+                    <fullName>Chatter Free</fullName>
+                    <default>false</default>
+                    <label>Chatter Free</label>
+                </value>
+                <value>
+                    <fullName>Cloud Integration User</fullName>
+                    <default>false</default>
+                    <label>Cloud Integration User</label>
+                </value>
+                <value>
+                    <fullName>Customer Community</fullName>
+                    <default>false</default>
+                    <label>Customer Community</label>
+                </value>
+                <value>
+                    <fullName>Customer Community Login</fullName>
+                    <default>false</default>
+                    <label>Customer Community Login</label>
+                </value>
+                <value>
+                    <fullName>Customer Community Plus</fullName>
+                    <default>false</default>
+                    <label>Customer Community Plus</label>
+                </value>
+                <value>
+                    <fullName>Customer Community Plus Login</fullName>
+                    <default>false</default>
+                    <label>Customer Community Plus Login</label>
+                </value>
+                <value>
+                    <fullName>Customer Portal Manager Custom</fullName>
+                    <default>false</default>
+                    <label>Customer Portal Manager Custom</label>
+                </value>
+                <value>
+                    <fullName>Customer Portal Manager Standard</fullName>
+                    <default>false</default>
+                    <label>Customer Portal Manager Standard</label>
+                </value>
+                <value>
+                    <fullName>External Identity</fullName>
+                    <default>false</default>
+                    <label>External Identity</label>
+                </value>
+                <value>
+                    <fullName>Force.com - App Subscription</fullName>
+                    <default>false</default>
+                    <label>Force.com - App Subscription</label>
+                </value>
+                <value>
+                    <fullName>Force.com - Free</fullName>
+                    <default>false</default>
+                    <label>Force.com - Free</label>
+                </value>
+                <value>
+                    <fullName>Gold Partner</fullName>
+                    <default>false</default>
+                    <label>Gold Partner</label>
+                </value>
+                <value>
+                    <fullName>High Volume Customer Portal</fullName>
+                    <default>false</default>
+                    <label>High Volume Customer Portal</label>
+                </value>
+                <value>
+                    <fullName>Identity</fullName>
+                    <default>false</default>
+                    <label>Identity</label>
+                </value>
+                <value>
+                    <fullName>Partner App Subscription</fullName>
+                    <default>false</default>
+                    <label>Partner App Subscription</label>
+                </value>
+                <value>
+                    <fullName>Partner Community</fullName>
+                    <default>false</default>
+                    <label>Partner Community</label>
+                </value>
+                <value>
+                    <fullName>Partner Community Login</fullName>
+                    <default>false</default>
+                    <label>Partner Community Login</label>
+                </value>
+                <value>
+                    <fullName>Salesforce</fullName>
+                    <default>false</default>
+                    <label>Salesforce</label>
+                </value>
+                <value>
+                    <fullName>Salesforce Platform</fullName>
+                    <default>false</default>
+                    <label>Salesforce Platform</label>
+                </value>
+                <value>
+                    <fullName>Silver Partner</fullName>
+                    <default>false</default>
+                    <label>Silver Partner</label>
+                </value>
+                <value>
+                    <fullName>Work.com Only</fullName>
+                    <default>false</default>
+                    <label>Work.com Only</label>
+                </value>
+                <value>
+                    <fullName>XOrg Proxy User</fullName>
+                    <default>false</default>
+                    <label>XOrg Proxy User</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>UserLoggingLevelOrdinal__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>User Logging Level Ordinal</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>UserLoggingLevel__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>User Logging Level</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>LoggingLevel</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>UserRoleId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>User Role ID</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>UserRoleLink__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&apos;/&apos; + UserRoleId__c, UserRoleName__c, &apos;_top&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>User Role</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>UserRoleName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>User Role Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>UserType__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>User Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Standard</fullName>
+                    <default>false</default>
+                    <label>Standard</label>
+                </value>
+                <value>
+                    <fullName>PowerPartner</fullName>
+                    <default>false</default>
+                    <label>PowerPartner</label>
+                </value>
+                <value>
+                    <fullName>CSPLitePortal</fullName>
+                    <default>false</default>
+                    <label>CSPLitePortal</label>
+                </value>
+                <value>
+                    <fullName>CustomerSuccess</fullName>
+                    <default>false</default>
+                    <label>CustomerSuccess</label>
+                </value>
+                <value>
+                    <fullName>PowerCustomerSuccess</fullName>
+                    <default>false</default>
+                    <label>PowerCustomerSuccess</label>
+                </value>
+                <value>
+                    <fullName>CsnOnly</fullName>
+                    <default>false</default>
+                    <label>CsnOnly</label>
+                </value>
+                <value>
+                    <fullName>AutomatedProcess</fullName>
+                    <default>false</default>
+                    <label>AutomatedProcess</label>
+                </value>
+                <value>
+                    <fullName>Guest</fullName>
+                    <default>false</default>
+                    <label>Guest</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>WasLoggedByCurrentUser__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>$User.Id ==  LoggedBy__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Logged By Current User</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Log</label>
+    <listViews>
+        <fullName>AllAsynchronousLogs</fullName>
+        <columns>NAME</columns>
+        <columns>LoggedByUsernameLink__c</columns>
+        <columns>StartTime__c</columns>
+        <columns>OWNER.ALIAS</columns>
+        <columns>Priority__c</columns>
+        <columns>Status__c</columns>
+        <columns>TransactionId__c</columns>
+        <columns>TotalLimitsCpuTimeUsed__c</columns>
+        <columns>TotalLogEntries__c</columns>
+        <columns>TotalERRORLogEntries__c</columns>
+        <columns>TotalWARNLogEntries__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>SystemMode__c</field>
+            <operation>equals</operation>
+            <value>BATCH_ACS,BATCH_APEX,BATCH_CHUNK_PARALLEL,BATCH_CHUNK_SERIAL,BULK_API,FUTURE,QUEUEABLE,SCHEDULED</value>
+        </filters>
+        <label>All Asynchronous Logs</label>
+    </listViews>
+    <listViews>
+        <fullName>AllBatchLogs</fullName>
+        <columns>NAME</columns>
+        <columns>LoggedByUsernameLink__c</columns>
+        <columns>StartTime__c</columns>
+        <columns>OWNER.ALIAS</columns>
+        <columns>Priority__c</columns>
+        <columns>Status__c</columns>
+        <columns>TransactionId__c</columns>
+        <columns>TotalLimitsCpuTimeUsed__c</columns>
+        <columns>TotalLogEntries__c</columns>
+        <columns>TotalERRORLogEntries__c</columns>
+        <columns>TotalWARNLogEntries__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>SystemMode__c</field>
+            <operation>equals</operation>
+            <value>BATCH_ACS,BATCH_APEX,BATCH_CHUNK_PARALLEL,BATCH_CHUNK_SERIAL</value>
+        </filters>
+        <label>All Batch Logs</label>
+    </listViews>
+    <listViews>
+        <fullName>AllClosedLogs</fullName>
+        <columns>NAME</columns>
+        <columns>LoggedByUsernameLink__c</columns>
+        <columns>StartTime__c</columns>
+        <columns>OWNER.ALIAS</columns>
+        <columns>Priority__c</columns>
+        <columns>Status__c</columns>
+        <columns>ClosedBy__c</columns>
+        <columns>ClosedDate__c</columns>
+        <columns>Issue__c</columns>
+        <columns>Comments__c</columns>
+        <columns>TransactionId__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IsClosed__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>All Closed Logs</label>
+    </listViews>
+    <listViews>
+        <fullName>AllLogs</fullName>
+        <columns>NAME</columns>
+        <columns>LoggedByUsernameLink__c</columns>
+        <columns>TransactionId__c</columns>
+        <columns>TotalLimitsCpuTimeUsed__c</columns>
+        <columns>TotalLogEntries__c</columns>
+        <columns>TotalERRORLogEntries__c</columns>
+        <columns>TotalWARNLogEntries__c</columns>
+        <columns>OWNER.ALIAS</columns>
+        <columns>Priority__c</columns>
+        <columns>Status__c</columns>
+        <columns>StartTime__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Logs</label>
+    </listViews>
+    <listViews>
+        <fullName>AllLogsWithERROREntries</fullName>
+        <columns>NAME</columns>
+        <columns>LoggedByUsernameLink__c</columns>
+        <columns>StartTime__c</columns>
+        <columns>OWNER.ALIAS</columns>
+        <columns>Priority__c</columns>
+        <columns>Status__c</columns>
+        <columns>TransactionId__c</columns>
+        <columns>TotalLimitsCpuTimeUsed__c</columns>
+        <columns>TotalLogEntries__c</columns>
+        <columns>TotalERRORLogEntries__c</columns>
+        <columns>TotalWARNLogEntries__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>TotalERRORLogEntries__c</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </filters>
+        <label>All Logs with ERROR Entries</label>
+    </listViews>
+    <listViews>
+        <fullName>AllLogsWithERRORorWARNEntries</fullName>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>LoggedByUsernameLink__c</columns>
+        <columns>StartTime__c</columns>
+        <columns>OWNER.ALIAS</columns>
+        <columns>Priority__c</columns>
+        <columns>Status__c</columns>
+        <columns>TransactionId__c</columns>
+        <columns>TotalLimitsCpuTimeUsed__c</columns>
+        <columns>TotalLogEntries__c</columns>
+        <columns>TotalERRORLogEntries__c</columns>
+        <columns>TotalWARNLogEntries__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>TotalERRORLogEntries__c</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>TotalWARNLogEntries__c</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </filters>
+        <label>All Logs with ERROR or WARN Entries</label>
+    </listViews>
+    <listViews>
+        <fullName>AllOpenLogs</fullName>
+        <columns>NAME</columns>
+        <columns>LoggedByUsernameLink__c</columns>
+        <columns>StartTime__c</columns>
+        <columns>OWNER.ALIAS</columns>
+        <columns>Priority__c</columns>
+        <columns>Status__c</columns>
+        <columns>TransactionId__c</columns>
+        <columns>TotalLimitsCpuTimeUsed__c</columns>
+        <columns>TotalLogEntries__c</columns>
+        <columns>TotalERRORLogEntries__c</columns>
+        <columns>TotalWARNLogEntries__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IsClosed__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>All Open Logs</label>
+    </listViews>
+    <listViews>
+        <fullName>AllRESTLogs</fullName>
+        <columns>NAME</columns>
+        <columns>LoggedByUsernameLink__c</columns>
+        <columns>StartTime__c</columns>
+        <columns>OWNER.ALIAS</columns>
+        <columns>Priority__c</columns>
+        <columns>Status__c</columns>
+        <columns>TransactionId__c</columns>
+        <columns>TotalLimitsCpuTimeUsed__c</columns>
+        <columns>TotalLogEntries__c</columns>
+        <columns>TotalERRORLogEntries__c</columns>
+        <columns>TotalWARNLogEntries__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>SystemMode__c</field>
+            <operation>equals</operation>
+            <value>REST</value>
+        </filters>
+        <label>All REST Logs</label>
+    </listViews>
+    <listViews>
+        <fullName>AllResolvedLogs</fullName>
+        <columns>NAME</columns>
+        <columns>LoggedByUsernameLink__c</columns>
+        <columns>StartTime__c</columns>
+        <columns>OWNER.ALIAS</columns>
+        <columns>Priority__c</columns>
+        <columns>ClosedBy__c</columns>
+        <columns>ClosedDate__c</columns>
+        <columns>Issue__c</columns>
+        <columns>Comments__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IsClosed__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>IsResolved__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>All Resolved Logs</label>
+    </listViews>
+    <listViews>
+        <fullName>MyAssignedLogs</fullName>
+        <columns>NAME</columns>
+        <columns>LoggedByUsernameLink__c</columns>
+        <columns>StartTime__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Status__c</columns>
+        <columns>TransactionId__c</columns>
+        <columns>TotalLimitsCpuTimeUsed__c</columns>
+        <columns>TotalLogEntries__c</columns>
+        <columns>TotalERRORLogEntries__c</columns>
+        <columns>TotalWARNLogEntries__c</columns>
+        <filterScope>Mine</filterScope>
+        <label>My Assigned Logs</label>
+    </listViews>
+    <listViews>
+        <fullName>MyAssignedOpenLogs</fullName>
+        <columns>NAME</columns>
+        <columns>LoggedByUsernameLink__c</columns>
+        <columns>StartTime__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Status__c</columns>
+        <columns>TransactionId__c</columns>
+        <columns>TotalLimitsCpuTimeUsed__c</columns>
+        <columns>TotalLogEntries__c</columns>
+        <columns>TotalERRORLogEntries__c</columns>
+        <columns>TotalWARNLogEntries__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>IsClosed__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>My Assigned Open Logs</label>
+    </listViews>
+    <listViews>
+        <fullName>MyGeneratedLogs</fullName>
+        <columns>NAME</columns>
+        <columns>StartTime__c</columns>
+        <columns>Priority__c</columns>
+        <columns>OWNER.ALIAS</columns>
+        <columns>Status__c</columns>
+        <columns>TransactionId__c</columns>
+        <columns>TotalLimitsCpuTimeUsed__c</columns>
+        <columns>TotalLogEntries__c</columns>
+        <columns>TotalERRORLogEntries__c</columns>
+        <columns>TotalWARNLogEntries__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>WasLoggedByCurrentUser__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>My Generated Logs</label>
+    </listViews>
+    <nameField>
+        <displayFormat>Log-{000000}</displayFormat>
+        <label>Log Number</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Logs</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>LoggedByUsernameLink__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>StartTime__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OWNER.ALIAS</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Priority__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>TransactionId__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>TotalLogEntries__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>TotalERRORLogEntries__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>TotalWARNLogEntries__c</customTabListAdditionalFields>
+        <excludedStandardButtons>New</excludedStandardButtons>
+        <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>Import</excludedStandardButtons>
+        <excludedStandardButtons>PrintableListView</excludedStandardButtons>
+        <listViewButtons>MassDelete</listViewButtons>
+        <lookupDialogsAdditionalFields>LoggedByUsernameLink__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>StartTime__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>OWNER.ALIAS</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Priority__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Status__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>TransactionId__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>TotalLogEntries__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>TotalERRORLogEntries__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>TotalWARNLogEntries__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LoggedByUsernameLink__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>StartTime__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>OWNER.ALIAS</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Priority__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Status__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>TransactionId__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>TotalLogEntries__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>TotalERRORLogEntries__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>TotalWARNLogEntries__c</lookupPhoneDialogsAdditionalFields>
+        <massQuickActions>Manage</massQuickActions>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>LoggedByUsernameLink__c</searchFilterFields>
+        <searchFilterFields>StartTime__c</searchFilterFields>
+        <searchFilterFields>OWNER.ALIAS</searchFilterFields>
+        <searchFilterFields>Priority__c</searchFilterFields>
+        <searchFilterFields>Status__c</searchFilterFields>
+        <searchFilterFields>TransactionId__c</searchFilterFields>
+        <searchFilterFields>TotalLogEntries__c</searchFilterFields>
+        <searchFilterFields>TotalERRORLogEntries__c</searchFilterFields>
+        <searchFilterFields>TotalWARNLogEntries__c</searchFilterFields>
+        <searchResultsAdditionalFields>LoggedByUsernameLink__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>StartTime__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OWNER.ALIAS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Priority__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TransactionId__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TotalLogEntries__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TotalERRORLogEntries__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TotalWARNLogEntries__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <sharingReasons>
+        <fullName>LoggedByUser__c</fullName>
+        <label>Log Created By User</label>
+    </sharingReasons>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>MassDelete</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Mass Delete</masterLabel>
+        <openType>sidebar</openType>
+        <page>LogMassDelete</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+</CustomObject>

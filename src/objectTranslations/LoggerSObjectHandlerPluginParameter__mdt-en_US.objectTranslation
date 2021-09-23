@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Logger Plugin Parameter</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Logger Plugin Parameters</value>
+    </caseValues>
+    <fields>
+        <help><!-- The expected collection type of the parameter. For example, String vs List&lt;String&gt; --></help>
+        <label><!-- Collection Type --></label>
+        <name>CollectionType__c</name>
+        <picklistValues>
+            <masterLabel>List</masterLabel>
+            <translation><!-- List --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single</masterLabel>
+            <translation><!-- Single --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The expected data type of the parameter value --></help>
+        <label><!-- Data Type --></label>
+        <name>DataType__c</name>
+        <picklistValues>
+            <masterLabel>Boolean</masterLabel>
+            <translation><!-- Boolean --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Date</masterLabel>
+            <translation><!-- Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Datetime</masterLabel>
+            <translation><!-- Datetime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Decimal</masterLabel>
+            <translation><!-- Decimal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Double</masterLabel>
+            <translation><!-- Double --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Id</masterLabel>
+            <translation><!-- Id --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Integer</masterLabel>
+            <translation><!-- Integer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Long</masterLabel>
+            <translation><!-- Long --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Object</masterLabel>
+            <translation><!-- Object --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SObject</masterLabel>
+            <translation><!-- SObject --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>String</masterLabel>
+            <translation><!-- String --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Used purely for documentation purposes to store any important details about this plugin --></help>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Controls if the plugin parameter is enabled/disabled. Only enabled plugin parameters will be used by the Apex plugin framework. --></help>
+        <label><!-- Is Enabled --></label>
+        <name>IsEnabled__c</name>
+    </fields>
+    <fields>
+        <help><!-- The configured plugin that uses this parameter --></help>
+        <label><!-- Logger Plugin --></label>
+        <name>SObjectHandlerPlugin__c</name>
+        <relationshipLabel><!-- Logger Plugin Parameters --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The value used by the plugin for this parameter. Since custom metadata type (CMDT) records can be deployed between orgs, you can either:
+ - Deploy the CMDT records between your orgs - for parameters that should be consistent in all environments
+ - Manually configure the CMDT records in each org - for parameters that should be environment-specific --></help>
+        <label><!-- Value --></label>
+        <name>Value__c</name>
+    </fields>
+    <layouts>
+        <layout>Logger SObject Handler Plugin Parameter Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Parameter Details --></label>
+            <section>Parameter Details</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

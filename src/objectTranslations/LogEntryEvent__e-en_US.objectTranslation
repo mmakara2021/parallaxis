@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Log Entry Event</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Log Entry Events</value>
+    </caseValues>
+    <fields>
+        <label><!-- API Version --></label>
+        <name>ApiVersion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Component Type --></label>
+        <name>ComponentType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Database Result Collection Type --></label>
+        <name>DatabaseResultCollectionType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Database Result JSON --></label>
+        <name>DatabaseResultJson__c</name>
+    </fields>
+    <fields>
+        <label><!-- Database Result Type --></label>
+        <name>DatabaseResultType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Epoch Timestamp --></label>
+        <name>EpochTimestamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exception Message --></label>
+        <name>ExceptionMessage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exception Stack Trace --></label>
+        <name>ExceptionStackTrace__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exception Type --></label>
+        <name>ExceptionType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aggregate Queries Max --></label>
+        <name>LimitsAggregateQueriesMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aggregate Queries Used --></label>
+        <name>LimitsAggregateQueriesUsed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Limits AggregateQueryMax_ --></label>
+        <name>LimitsAggregateQueryMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Async Calls Max --></label>
+        <name>LimitsAsyncCallsMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Async Calls Used --></label>
+        <name>LimitsAsyncCallsUsed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Callouts Max --></label>
+        <name>LimitsCalloutsMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Callouts Used --></label>
+        <name>LimitsCalloutsUsed__c</name>
+    </fields>
+    <fields>
+        <label><!-- CPU Time Max --></label>
+        <name>LimitsCpuTimeMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- CPU Time Used --></label>
+        <name>LimitsCpuTimeUsed__c</name>
+    </fields>
+    <fields>
+        <label><!-- DML Rows Max --></label>
+        <name>LimitsDmlRowsMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- DML Rows Used --></label>
+        <name>LimitsDmlRowsUsed__c</name>
+    </fields>
+    <fields>
+        <label><!-- DML Statements Max --></label>
+        <name>LimitsDmlStatementsMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- DML Statements Used --></label>
+        <name>LimitsDmlStatementsUsed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Invocations Max --></label>
+        <name>LimitsEmailInvocationsMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Invocations Used --></label>
+        <name>LimitsEmailInvocationsUsed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Future Calls Max --></label>
+        <name>LimitsFutureCallsMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Future Calls Used --></label>
+        <name>LimitsFutureCallsUsed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Heap Size Max --></label>
+        <name>LimitsHeapSizeMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Heap Size Used --></label>
+        <name>LimitsHeapSizeUsed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobile Push Apex Calls Max --></label>
+        <name>LimitsMobilePushApexCallsMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobile Push Apex Calls Used --></label>
+        <name>LimitsMobilePushApexCallsUsed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Publish Immediate Statements DML Max --></label>
+        <name>LimitsPublishImmediateDmlStatementsMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Publish Immediate Statements DML Used --></label>
+        <name>LimitsPublishImmediateDmlStatementsUsed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Queueable Jobs Max --></label>
+        <name>LimitsQueueableJobsMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Queueable Jobs Used --></label>
+        <name>LimitsQueueableJobsUsed__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOQL Queries Max --></label>
+        <name>LimitsSoqlQueriesMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOQL Queries Used --></label>
+        <name>LimitsSoqlQueriesUsed__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOQL Query Locator Rows Max --></label>
+        <name>LimitsSoqlQueryLocatorRowsMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOQL Query Locator Rows Used --></label>
+        <name>LimitsSoqlQueryLocatorRowsUsed__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOQL Query Rows Max --></label>
+        <name>LimitsSoqlQueryRowsMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOQL Query Rows Used --></label>
+        <name>LimitsSoqlQueryRowsUsed__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOSL Searches Max --></label>
+        <name>LimitsSoslSearchesMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOSL Searches Used --></label>
+        <name>LimitsSoslSearchesUsed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Locale --></label>
+        <name>Locale__c</name>
+    </fields>
+    <fields>
+        <label><!-- Logged By ID --></label>
+        <name>LoggedById__c</name>
+    </fields>
+    <fields>
+        <label><!-- Username --></label>
+        <name>LoggedByUsername__c</name>
+    </fields>
+    <fields>
+        <label><!-- Logging Level Ordinal --></label>
+        <name>LoggingLevelOrdinal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Logging Level --></label>
+        <name>LoggingLevel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Login Application --></label>
+        <name>LoginApplication__c</name>
+    </fields>
+    <fields>
+        <label><!-- Login Browser --></label>
+        <name>LoginBrowser__c</name>
+    </fields>
+    <fields>
+        <label><!-- DEPRECATED: Login Domain --></label>
+        <name>LoginDomain__c</name>
+    </fields>
+    <fields>
+        <label><!-- Login History ID --></label>
+        <name>LoginHistoryId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Login Platform --></label>
+        <name>LoginPlatform__c</name>
+    </fields>
+    <fields>
+        <label><!-- Login Type --></label>
+        <name>LoginType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Logout URL --></label>
+        <name>LogoutUrl__c</name>
+    </fields>
+    <fields>
+        <label><!-- Message Masked --></label>
+        <name>MessageMasked__c</name>
+    </fields>
+    <fields>
+        <label><!-- Message Truncated --></label>
+        <name>MessageTruncated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Message --></label>
+        <name>Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Network ID --></label>
+        <name>NetworkId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Site Login URL --></label>
+        <name>NetworkLoginUrl__c</name>
+    </fields>
+    <fields>
+        <label><!-- Site Logout URL --></label>
+        <name>NetworkLogoutUrl__c</name>
+    </fields>
+    <fields>
+        <label><!-- Site Name --></label>
+        <name>NetworkName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Site Self Registration URL --></label>
+        <name>NetworkSelfRegistrationUrl__c</name>
+    </fields>
+    <fields>
+        <label><!-- Site URL Path Prefix --></label>
+        <name>NetworkUrlPathPrefix__c</name>
+    </fields>
+    <fields>
+        <label><!-- Organization Domain URL --></label>
+        <name>OrganizationDomainUrl__c</name>
+    </fields>
+    <fields>
+        <label><!-- Organization Environment Type --></label>
+        <name>OrganizationEnvironmentType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Organization ID --></label>
+        <name>OrganizationId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Organization Instance Name --></label>
+        <name>OrganizationInstanceName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Organization Name --></label>
+        <name>OrganizationName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Organization Namespace Prefix --></label>
+        <name>OrganizationNamespacePrefix__c</name>
+    </fields>
+    <fields>
+        <label><!-- Organization Type --></label>
+        <name>OrganizationType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Origin Location --></label>
+        <name>OriginLocation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Origin Type --></label>
+        <name>OriginType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Log Transaction ID --></label>
+        <name>ParentLogTransactionId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Profile ID --></label>
+        <name>ProfileId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Profile Name --></label>
+        <name>ProfileName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Record Collection Type --></label>
+        <name>RecordCollectionType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Record ID --></label>
+        <name>RecordId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record JSON Masked --></label>
+        <name>RecordJsonMasked__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Record JSON --></label>
+        <name>RecordJson__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Record SObject Classification --></label>
+        <name>RecordSObjectClassification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Record Object Namespace --></label>
+        <name>RecordSObjectTypeNamespace__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Record SObject Type --></label>
+        <name>RecordSObjectType__c</name>
+    </fields>
+    <fields>
+        <label><!-- SessionId --></label>
+        <name>SessionId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Session Security Level --></label>
+        <name>SessionSecurityLevel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Session Type --></label>
+        <name>SessionType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source IP --></label>
+        <name>SourceIp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stack Trace --></label>
+        <name>StackTrace__c</name>
+    </fields>
+    <fields>
+        <label><!-- System Mode --></label>
+        <name>SystemMode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tags --></label>
+        <name>Tags__c</name>
+    </fields>
+    <fields>
+        <label><!-- Theme Displayed --></label>
+        <name>ThemeDisplayed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Zone ID --></label>
+        <name>TimeZoneId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Zone Name --></label>
+        <name>TimeZoneName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Timestamp String --></label>
+        <name>TimestampString__c</name>
+    </fields>
+    <fields>
+        <label><!-- Timestamp --></label>
+        <name>Timestamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- DEPRECATED: Topics --></label>
+        <name>Topics__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction Entry Number --></label>
+        <name>TransactionEntryNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction ID --></label>
+        <name>TransactionId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trigger Is Executing --></label>
+        <name>TriggerIsExecuting__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trigger Operation Type --></label>
+        <name>TriggerOperationType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trigger SObject Type --></label>
+        <name>TriggerSObjectType__c</name>
+    </fields>
+    <fields>
+        <label><!-- User License Definition Key --></label>
+        <name>UserLicenseDefinitionKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- User License ID --></label>
+        <name>UserLicenseId__c</name>
+    </fields>
+    <fields>
+        <label><!-- User License Name --></label>
+        <name>UserLicenseName__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Logging Level Ordinal --></label>
+        <name>UserLoggingLevelOrdinal__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Logging Level --></label>
+        <name>UserLoggingLevel__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Role ID --></label>
+        <name>UserRoleId__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Role Name --></label>
+        <name>UserRoleName__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Type --></label>
+        <name>UserType__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

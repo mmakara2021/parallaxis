@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Controls which picklist values for Log__c.Status__c are considered closed and/or resolved</description>
+    <fields>
+        <fullName>IsActive__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Is Active</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsClosed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Is Closed</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsResolved__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Is Resolved</label>
+        <type>Checkbox</type>
+    </fields>
+    <label>Log Status</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>MasterLabel</columns>
+        <columns>DeveloperName</columns>
+        <columns>IsActive__c</columns>
+        <columns>IsClosed__c</columns>
+        <columns>IsResolved__c</columns>
+        <columns>NamespacePrefix</columns>
+        <columns>IsProtected</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <pluralLabel>Log Statuses</pluralLabel>
+    <validationRules>
+        <fullName>Only_closed_can_be_resolved</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+    IsClosed__c = false,
+    IsResolved__c = true
+)</errorConditionFormula>
+        <errorDisplayField>IsResolved__c</errorDisplayField>
+        <errorMessage>Is Resolved cannot be set to true unless Is Closed is true</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

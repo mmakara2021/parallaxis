@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Logger Settings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Logger Settings</value>
+    </caseValues>
+    <fields>
+        <help><!-- When enabled, any logs generated will not have any user-specific details set - any fields related to the User, Profile, etc. will be null. --></help>
+        <label><!-- Anonymous Mode --></label>
+        <name>AnonymousMode__c</name>
+    </fields>
+    <fields>
+        <help><!-- When enabled, any data-mask rules (configured in LogEntryDataMaskRule__mdt) will be automatically applied to log entry messages. --></help>
+        <label><!-- Apply Data Mask Rules --></label>
+        <name>ApplyDataMaskRules__c</name>
+    </fields>
+    <fields>
+        <help><!-- Uses Apex managed sharing to grants users read or edit access to their log records (on insert only). When no access level is specified, no Apex sharing logic is executed. This only gives record-level access - users will still need to be granted access to the Log__c object using permission sets or profiles.
+
+Possible Values:
+(blank)
+Read
+Edit --></help>
+        <label><!-- Default Log Records Access Level --></label>
+        <name>DefaultLogShareAccessLevel__c</name>
+    </fields>
+    <fields>
+        <help><!-- This value is used to set the field Log__c.LogRetentionDate__c,  which is then used by LogBatchPurger to delete old logs. To keep  logs indefinitely, set this field to blank (null). --></help>
+        <label><!-- Default Number of Days to Retain Logs --></label>
+        <name>DefaultNumberOfDaysToRetainLogs__c</name>
+    </fields>
+    <fields>
+        <help><!-- Defaults to &apos;EVENT_BUS&apos;. This controls the default save method used by Logger when calling saveLog().
+
+Possible values:
+EVENT_BUS
+QUEUEABLE
+REST --></help>
+        <label><!-- Save Method --></label>
+        <name>DefaultSaveMethod__c</name>
+    </fields>
+    <fields>
+        <help><!-- When enabled, log entries may be generated that contain additional details about the logging system. --></help>
+        <label><!-- Enable System Messages --></label>
+        <name>EnableSystemMessages__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Enabled --></label>
+        <name>IsEnabled__c</name>
+    </fields>
+    <fields>
+        <help><!-- Possible values:
+ERROR
+WARN
+INFO
+DEBUG
+FINE
+FINER
+FINEST --></help>
+        <label><!-- Logging Level --></label>
+        <name>LoggingLevel__c</name>
+    </fields>
+    <fields>
+        <help><!-- When enabled, any time an SObject record is logged, only fields that the current user can access will be included in the record&apos;s JSON. --></help>
+        <label><!-- Strip Inaccessible Record Fields --></label>
+        <name>StripInaccessibleRecordFields__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use to format the Apex Log System Debug messages with fields from LogEntryEvent__e --></help>
+        <label><!-- System Log Message Format --></label>
+        <name>SystemLogMessageFormat__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

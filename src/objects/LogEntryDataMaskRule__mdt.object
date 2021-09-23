@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Used to configure RegEx-based rules to mask sensitive data in log entry messages (stored in LogEntryEvent__e.Message__c and LogEntry__c.Message__c)</description>
+    <fields>
+        <fullName>ApplyToMessage__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>When checked, the data mask rule is applied to log entry messages (stored in LogEntryEvent__e.Message__c and LogEntry__c.Message__c)</inlineHelpText>
+        <label>Apply to Message</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ApplyToRecordJson__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>When checked, the data mask rule is applied to log entry messages (stored in LogEntryEvent__e.RecordJson__c and LogEntry__c.RecordJson__c)</inlineHelpText>
+        <label>Apply to Record JSON</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsEnabled__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Is Enabled</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ReplacementRegEx__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Replacement RegEx</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SensitiveDataRegEx__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Sensitive Data RegEx</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Log Entry Data Mask Rule</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>MasterLabel</columns>
+        <columns>DeveloperName</columns>
+        <columns>IsEnabled__c</columns>
+        <columns>ApplyToMessage__c</columns>
+        <columns>ApplyToRecordJson__c</columns>
+        <columns>SensitiveDataRegEx__c</columns>
+        <columns>ReplacementRegEx__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <pluralLabel>Log Entry Data Mask Rules</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

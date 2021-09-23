@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Used to configure additional Apex classes and Flows that should be executed all trigger operations on LogEntryEvent__e, Log__c and LogEntry__c</description>
+    <fields>
+        <fullName>Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Used purely for documentation purposes to store any important details about this parameter</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Used purely for documentation purposes to store any important details about this parameter</inlineHelpText>
+        <label>Description</label>
+        <length>131072</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ExecutionOrder__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The specific order to execute plugins in the org. Plugins are executed in order by sorting by execution order, then plugin name (ORDER BY ExecutionOrder__c NULLS LAST, DeveloperName).</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>The specific order to execute plugins in the org. Plugins are executed in order by sorting by execution order, then plugin name (ORDER BY ExecutionOrder__c NULLS LAST, DeveloperName).</inlineHelpText>
+        <label>Execution Order</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IsEnabled__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Controls if the plugin is enabled/disabled. Only enabled plugins will be executed by the logging system.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Controls if the plugin is enabled/disabled. Only enabled plugins will be executed by the logging system.</inlineHelpText>
+        <label>Is Enabled</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PluginApiName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The API name of the metadata to run, based on the Plugin Type
+
+Apex: The name of an Apex class that implements the interface LoggerSObjectHandlerPlugin
+
+Flow: The API name of a Flow that supports these inputs:
+ - triggerOperationType: text variable
+ - triggerNew: record collection variable
+ - triggerOld: record collection variable</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>The API name of the metadata to run, based on the Plugin Type
+
+Apex: The name of an Apex class that implements the interface LoggerSObjectHandlerPlugin
+
+Flow: The API name of a Flow that supports these inputs:
+ - triggerOperationType: text variable
+ - triggerNew: record collection variable
+ - triggerOld: record collection variable</inlineHelpText>
+        <label>Plugin API Name</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PluginType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The type of plugin that the logging system should dynamically execute - Apex or Flow.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>The type of plugin that the logging system should dynamically execute - Apex or Flow.</inlineHelpText>
+        <label>Plugin Type</label>
+        <required>true</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Apex</fullName>
+                    <default>true</default>
+                    <label>Apex</label>
+                </value>
+                <value>
+                    <fullName>Flow</fullName>
+                    <default>false</default>
+                    <label>Flow</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SObjectHandler__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The logging system&apos;s trigger SObject handler class that should dynamically call the plugin. This controls when the plugin is executed.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>The logging system&apos;s trigger SObject handler class that should dynamically call the plugin. This controls when the plugin is executed.</inlineHelpText>
+        <label>SObject Handler</label>
+        <referenceTo>LoggerSObjectHandler__mdt</referenceTo>
+        <relationshipLabel>Logger Plugins</relationshipLabel>
+        <relationshipName>LoggerSObjectHandlerPlugins</relationshipName>
+        <required>true</required>
+        <type>MetadataRelationship</type>
+        <unique>false</unique>
+    </fields>
+    <label>Logger Plugin</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>MasterLabel</columns>
+        <columns>DeveloperName</columns>
+        <columns>IsEnabled__c</columns>
+        <columns>SObjectHandler__c</columns>
+        <columns>PluginType__c</columns>
+        <columns>PluginApiName__c</columns>
+        <columns>ExecutionOrder__c</columns>
+        <columns>Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>AllDisabled</fullName>
+        <columns>MasterLabel</columns>
+        <columns>DeveloperName</columns>
+        <columns>SObjectHandler__c</columns>
+        <columns>PluginType__c</columns>
+        <columns>PluginApiName__c</columns>
+        <columns>ExecutionOrder__c</columns>
+        <columns>Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IsEnabled__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>All Disabled</label>
+    </listViews>
+    <listViews>
+        <fullName>AllEnabled</fullName>
+        <columns>MasterLabel</columns>
+        <columns>DeveloperName</columns>
+        <columns>SObjectHandler__c</columns>
+        <columns>PluginType__c</columns>
+        <columns>PluginApiName__c</columns>
+        <columns>ExecutionOrder__c</columns>
+        <columns>Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IsEnabled__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>All Enabled</label>
+    </listViews>
+    <pluralLabel>Logger Plugins</pluralLabel>
+    <validationRules>
+        <fullName>Plugins_are_not_supported</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+    SObjectHandler__r.SObjectType__r.DeveloperName != &apos;Log&apos;,
+    SObjectHandler__r.SObjectType__r.DeveloperName != &apos;LogEntry&apos;,
+    SObjectHandler__r.SObjectType__r.DeveloperName != &apos;LogEntryEvent&apos;,
+    SObjectHandler__r.SObjectType__r.DeveloperName != &apos;LogEntryTag&apos;,
+    SObjectHandler__r.SObjectType__r.DeveloperName != &apos;LoggerTag&apos;
+)</errorConditionFormula>
+        <errorDisplayField>SObjectHandler__c</errorDisplayField>
+        <errorMessage>Plugins are not supported for this SObject Handler</errorMessage>
+    </validationRules>
+    <visibility>Protected</visibility>
+</CustomObject>
