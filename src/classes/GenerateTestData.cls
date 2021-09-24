@@ -21,6 +21,27 @@ public with sharing class GenerateTestData {
 
       }
 
+        for (String accountName : accountNames) {
+
+            Account acct = new Account(Name=accountName);
+
+            accounts.add(acct);
+
+        }
+
+
+
+/*
+        for (String accountName : accountNames) {
+
+            Account acct = new Account(Name=accountName);
+
+            accounts.add(acct);
+
+        }
+       //fsgasgsagasgsdagad*/
+
+
        insert accounts;
     }
 
