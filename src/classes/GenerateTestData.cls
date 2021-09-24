@@ -11,12 +11,17 @@ public with sharing class GenerateTestData {
 
         List<String> accountNames = new List<String>{'Eric Spicely','Zdenek Polivka','Matej Penaz','Andrej Kalasnik','Petr Knize','David Hosek'};
 
-        Logger.debug('GenerateTestData trigger');
-        Logger.info('GenerateTestData trigger info');
-        Logger.saveLog();
 
 
+      for (Integer i=0; i < accountNames.size(); i++ ){
 
+          Account acct = new Account(Name=accountNames[i]);
+
+          accounts.add(acct);
+
+      }
+
+       insert accounts;
     }
 
 }
